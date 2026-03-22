@@ -1,0 +1,486 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1008 612">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #939598;
+      }
+
+      .st0, .st1, .st2, .st3 {
+        fill: none;
+      }
+
+      .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .st4, .st9, .st12, .st14 {
+        font-size: 12px;
+      }
+
+      .st4, .st18, .st13 {
+        fill: #939598;
+      }
+
+      .st5, .st19, .st20 {
+        fill: #004e7f;
+      }
+
+      .st5, .st7, .st16 {
+        font-size: 10px;
+      }
+
+      .st21, .st7, .st22, .st11 {
+        fill: #456b4d;
+      }
+
+      .st6 {
+        font-size: 18px;
+      }
+
+      .st6, .st23, .st8, .st10, .st12 {
+        fill: #fff;
+      }
+
+      .st22, .st24, .st20 {
+        stroke: #231f20;
+      }
+
+      .st22, .st24, .st20, .st25 {
+        stroke-width: .75px;
+      }
+
+      .st26 {
+        opacity: .25;
+      }
+
+      .st24, .st27, .st16 {
+        fill: #9f2214;
+      }
+
+      .st8 {
+        font-size: 11.81px;
+      }
+
+      .st9 {
+        fill: #58595b;
+      }
+
+      .st28, .st29 {
+        fill: #d4872f;
+      }
+
+      .st10 {
+        font-size: 11.81px;
+      }
+
+      .st2 {
+        stroke: #f26522;
+      }
+
+      .st18 {
+        font-family: MyriadPro-It, 'Myriad Pro';
+        font-size: 11px;
+        font-style: italic;
+      }
+
+      .st11 {
+        font-size: 9px;
+      }
+
+      .st29, .st3 {
+        stroke: #d4872f;
+        stroke-width: 2px;
+      }
+
+      .st25 {
+        fill: #d1d3d4;
+        stroke: #d1d3d4;
+      }
+
+      .st30 {
+        fill: #e6e7e8;
+      }
+
+      .st13, .st15 {
+        font-size: 21px;
+      }
+
+      .st14, .st15 {
+        fill: #f26522;
+      }
+
+      .st31 {
+        fill: #010101;
+      }
+
+      .st17 {
+        fill: #231f20;
+        font-size: 30px;
+      }
+    </style>
+  </defs>
+  <g id="Shading">
+    <rect class="st30" x="54" y="247.5" width="72" height="184.5" rx="12" ry="12"/>
+    <rect class="st30" x="278.33" y="247.5" width="72" height="184.5" rx="12" ry="12"/>
+    <path class="st30" d="M558,420c0,6.63-10.01,12-22.36,12h-89.44c-12.35,0-22.36-5.37-22.36-12v-160.5c0-6.63,10.01-12,22.36-12h89.44c12.35,0,22.36,5.37,22.36,12v160.5Z"/>
+    <rect class="st30" x="639" y="247.5" width="72" height="184.5" rx="12" ry="12"/>
+    <path class="st30" d="M824,247.5h48c6.62,0,12,5.38,12,12v160.5c0,6.62-5.38,12-12,12h-48c-6.62,0-12-5.38-12-12v-160.5c0-6.62,5.38-12,12-12Z"/>
+    <line class="st1" x1="27" y1="351" x2="954" y2="349.67"/>
+    <line class="st1" x1="27" y1="351" x2="54" y2="349.67"/>
+  </g>
+  <g id="OT_Poetry">
+    <line class="st25" x1="90" y1="126" x2="90" y2="198"/>
+    <line class="st25" x1="594" y1="126" x2="594" y2="198"/>
+    <line class="st25" x1="522" y1="126" x2="522" y2="144"/>
+    <g id="Job_Box">
+      <rect class="st22" x="54" y="90" width="72" height="36"/>
+      <text class="st10" transform="translate(82.55 104.03) scale(.97 1)"><tspan x="0" y="0">18</tspan><tspan x="-2.73" y="14.17">約伯記</tspan></text>
+    </g>
+    <g id="Psalms_Box">
+      <rect class="st22" x="486" y="90" width="72" height="36"/>
+      <text class="st10" transform="translate(515.56 104.03) scale(.97 1)"><tspan x="0" y="0">19</tspan><tspan x="-10.92" y="14.17">詩篇</tspan></text>
+    </g>
+    <g id="Proverbs_Box">
+      <rect class="st22" x="558" y="18" width="72" height="36"/>
+      <text class="st10" transform="translate(588.56 32.03) scale(.97 1)"><tspan x="0" y="0">20</tspan><tspan x="-15.68" y="14.17">箴言</tspan></text>
+    </g>
+    <g id="Eccl_Box">
+      <rect class="st22" x="558" y="54" width="72" height="36"/>
+      <text class="st10" transform="translate(588.56 68.03) scale(.97 1)"><tspan x="0" y="0">21</tspan><tspan x="-22.64" y="14.17">傳道書</tspan></text>
+    </g>
+    <g id="Songs_Box">
+      <rect class="st22" x="558" y="90" width="72" height="36"/>
+      <text class="st10" transform="translate(588.56 104.03) scale(.97 1)"><tspan x="0" y="0">22</tspan><tspan x="-22.91" y="14.17">雅歌</tspan></text>
+    </g>
+    <rect class="st21" x="838" y="35" width="58" height="27" rx="4.41" ry="4.41"/>
+    <text class="st6" transform="translate(842.83 53.41)"><tspan x="0" y="0">詩歌</tspan></text>
+    <rect class="st23" x="85.5" y="129.6" width="9" height="23.04"/>
+    <text class="st7" transform="translate(50.87 140)"><tspan x="0" y="0">約伯的時代</tspan></text>
+    <text class="st7" transform="translate(361.62 110.75)"><tspan x="0" y="0">多由大衛王所寫</tspan></text>
+    <text class="st7" transform="translate(636.85 75)"><tspan x="0" y="0">所羅門王所寫</tspan></text>
+    <text class="st11" transform="translate(52.14 150)"><tspan x="0" y="0">(非寫作時間)</tspan></text>
+  </g>
+  <g id="OT_Prophets">
+    <line class="st25" x1="630" y1="234" x2="630" y2="378"/>
+    <line class="st25" x1="756" y1="216" x2="756" y2="378"/>
+    <line class="st25" x1="918" y1="234" x2="918" y2="378"/>
+    <g id="Isaiah_Box">
+      <rect class="st20" x="558" y="378" width="72" height="36"/>
+      <text class="st10" transform="translate(588.56 392.03) scale(.97 1)"><tspan x="0" y="0">23</tspan><tspan x="-8.04" y="14.17">以賽亞書</tspan></text>
+    </g>
+    <g id="Jeremiah_Box">
+      <rect class="st20" x="558" y="414" width="72" height="36"/>
+      <text class="st10" transform="translate(588.56 428.03) scale(.97 1)"><tspan x="0" y="0">24</tspan><tspan x="-16.4" y="14.17">耶利米書</tspan></text>
+    </g>
+    <g id="Lam_Box">
+      <rect class="st20" x="558" y="450" width="72" height="36"/>
+      <text class="st10" transform="translate(588.56 464.03) scale(.97 1)"><tspan x="0" y="0">25</tspan><tspan x="-27.72" y="14.17">耶利米哀歌</tspan></text>
+    </g>
+    <g id="Ezekiel_Box">
+      <rect class="st20" x="720" y="378" width="72" height="36"/>
+      <text class="st10" transform="translate(750.56 392.03) scale(.97 1)"><tspan x="0" y="0">26</tspan><tspan x="-10.83" y="14.17">以西結書</tspan></text>
+    </g>
+    <g id="Daniel_Box">
+      <rect class="st20" x="720" y="414" width="72" height="36"/>
+      <text class="st10" transform="translate(750.56 428.03) scale(.97 1)"><tspan x="0" y="0">27</tspan><tspan x="-9.73" y="14.17">但以理書</tspan></text>
+    </g>
+    <g id="Hosea_Box">
+      <rect class="st20" x="558" y="486" width="72" height="36"/>
+      <text class="st10" transform="translate(588.56 500.03) scale(.97 1)"><tspan x="0" y="0">28</tspan><tspan x="-9.17" y="14.17">何西阿書</tspan></text>
+    </g>
+    <g id="Joel_Box">
+      <rect class="st20" x="558" y="522" width="72" height="36"/>
+      <text class="st10" transform="translate(588.56 536.03) scale(.97 1)"><tspan x="0" y="0">29</tspan><tspan x="-3.72" y="14.17">約珥書</tspan></text>
+    </g>
+    <g id="Amos_Box">
+      <rect class="st20" x="558" y="558" width="72" height="36"/>
+      <text class="st10" transform="translate(588.56 572.03) scale(.97 1)"><tspan x="0" y="0">30</tspan><tspan x="-8.06" y="14.17">阿摩司書</tspan></text>
+    </g>
+    <g id="Obadiah_Box">
+      <rect class="st20" x="630" y="378" width="72" height="36"/>
+      <text class="st10" transform="translate(659.55 392.03) scale(.97 1)"><tspan x="0" y="0">31</tspan><tspan x="-15.05" y="14.17">俄巴底亞書</tspan></text>
+    </g>
+    <g id="Jonah_Box">
+      <rect class="st20" x="630" y="414" width="72" height="36"/>
+      <text class="st10" transform="translate(659.55 428.03) scale(.97 1)"><tspan x="0" y="0">32</tspan><tspan x="-8.77" y="14.17">約拿書</tspan></text>
+    </g>
+    <g id="Micah_Box">
+      <rect class="st20" x="630" y="450" width="72" height="36"/>
+      <text class="st10" transform="translate(659.55 464.03) scale(.97 1)"><tspan x="0" y="0">33</tspan><tspan x="-8.84" y="14.17">彌迦書</tspan></text>
+    </g>
+    <g id="Nahum_Box">
+      <rect class="st20" x="630" y="486" width="72" height="36"/>
+      <text class="st10" transform="translate(659.55 500.03) scale(.97 1)"><tspan x="0" y="0">34</tspan><tspan x="-12.13" y="14.17">那鴻書</tspan></text>
+    </g>
+    <g id="Hab_Box">
+      <rect class="st20" x="630" y="522" width="72" height="36"/>
+      <text class="st10" transform="translate(659.55 536.03) scale(.97 1)"><tspan x="0" y="0">35</tspan><tspan x="-18.4" y="14.17">哈巴谷書</tspan></text>
+    </g>
+    <g id="Zeph_Box">
+      <rect class="st20" x="630" y="558" width="72" height="36"/>
+      <text class="st10" transform="translate(659.55 572.03) scale(.97 1)"><tspan x="0" y="0">36</tspan><tspan x="-20.43" y="14.17">西番雅書</tspan></text>
+    </g>
+    <g id="Haggai_Box">
+      <rect class="st20" x="882" y="378" width="72" height="36"/>
+      <text class="st10" transform="translate(912.56 392.03) scale(.97 1)"><tspan x="0" y="0">37</tspan><tspan x="-11.47" y="14.17">哈該書</tspan></text>
+    </g>
+    <g id="Zech_Box">
+      <rect class="st20" x="882" y="414" width="72" height="36"/>
+      <text class="st10" transform="translate(912.55 428.03) scale(.97 1)"><tspan x="0" y="0">38</tspan><tspan x="-18.37" y="14.17">撒迦利亞書</tspan></text>
+    </g>
+    <g id="MalachiBox">
+      <rect class="st20" x="882" y="450" width="72" height="36"/>
+      <text class="st10" transform="translate(912.55 464.03) scale(.97 1)"><tspan x="0" y="0">39</tspan><tspan x="-13.08" y="14.17">瑪拉基書</tspan></text>
+    </g>
+    <rect class="st19" x="901.88" y="35" width="81.25" height="27" rx="4.41" ry="4.41"/>
+    <text class="st6" transform="translate(907.21 54)"><tspan x="0" y="0">先知書</tspan></text>
+    <text class="st5" transform="translate(380.23 580.13)"><tspan x="0" y="0">耶利米書寫於被擄前與被擄期間</tspan></text>
+    <text class="st5" transform="translate(364.8 483)"><tspan x="0" y="0">以賽亞書、約珥書、彌迦書、哈巴谷書和西番雅書</tspan></text>
+    <text class="st5" transform="translate(398.93 524)"><tspan x="0" y="0">約拿書與那鴻書寫給亞述</tspan></text>
+    <text class="st5" transform="translate(444.13 553)"><tspan x="0" y="0">俄巴底亞書寫給以東</tspan></text>
+    <text class="st5" transform="translate(326.18 453)"><tspan x="0" y="0">何西阿書與阿摩司書寫給北國（以色列）</tspan></text>
+    <text class="st5" transform="translate(720 468)"><tspan x="0" y="0">以西結書與但以理書</tspan></text>
+    <text class="st5" transform="translate(826.28 504)"><tspan x="0" y="0">哈該書、撒迦利亞書與瑪拉基書</tspan></text>
+    <text class="st5" transform="translate(394.26 494.54)"><tspan x="0" y="0">寫給南國（猶大）</tspan></text>
+    <text class="st5" transform="translate(500.81 506.09)"><tspan x="0" y="0">被擄前</tspan></text>
+    <text class="st5" transform="translate(500.81 465.06)"><tspan x="0" y="0">被擄前</tspan></text>
+    <text class="st5" transform="translate(500.81 535.11)"><tspan x="0" y="0">被擄前</tspan></text>
+    <text class="st5" transform="translate(500.81 564.13)"><tspan x="0" y="0">被擄前</tspan></text>
+    <text class="st5" transform="translate(408.69 592.16)"><tspan x="0" y="0">耶利米哀歌寫於被擄期間</tspan></text>
+    <text class="st5" transform="translate(720 478.88)"><tspan x="0" y="0">寫於被擄期間</tspan></text>
+    <text class="st5" transform="translate(831.02 514.96)"><tspan x="0" y="0">寫於被擄歸回後</tspan></text>
+    <text class="st5" transform="translate(838.12 525.92)"><tspan x="0" y="0">以及耶路撒冷重建後</tspan></text>
+  </g>
+  <g id="OT_History">
+    <line class="st25" x1="702" y1="216" x2="711" y2="216"/>
+    <line class="st25" x1="720" y1="216" x2="729" y2="216"/>
+    <line class="st25" x1="774" y1="216" x2="783" y2="216"/>
+    <line class="st25" x1="738" y1="216" x2="747" y2="216"/>
+    <line class="st25" x1="756" y1="216" x2="765" y2="216"/>
+    <line class="st25" x1="793.39" y1="216" x2="801" y2="216"/>
+    <line class="st25" x1="198" y1="180" x2="198" y2="198"/>
+    <line class="st25" x1="270" y1="180" x2="270" y2="198"/>
+    <line class="st25" x1="378" y1="180" x2="378" y2="198"/>
+    <line class="st25" x1="522" y1="180" x2="522" y2="198"/>
+    <line class="st25" x1="630" y1="180" x2="630" y2="198"/>
+    <line class="st25" x1="846" y1="180" x2="846" y2="198"/>
+    <g id="Genesis_Box">
+      <rect class="st24" x="54" y="198" width="72" height="36"/>
+      <text class="st8" transform="translate(87.49 211.03) scale(.97 1)"><tspan x="0" y="0">1</tspan><tspan x="-16.04" y="14.17">創世記</tspan></text>
+    </g>
+    <g id="Exodus_Box">
+      <rect class="st24" x="126" y="198" width="72" height="36"/>
+      <text class="st10" transform="translate(159.49 211.03) scale(.97 1)"><tspan x="0" y="0">2</tspan><tspan x="-14.77" y="14.17">出埃及記</tspan></text>
+    </g>
+    <g id="Leviticus_Box">
+      <rect class="st24" x="162" y="144" width="72" height="36"/>
+      <text class="st10" transform="translate(195.48 157.03) scale(.97 1)"><tspan x="0" y="0">3</tspan><tspan x="-18.51" y="14.17">利未記</tspan></text>
+    </g>
+    <g id="Numbers_Box">
+      <rect class="st24" x="198" y="198" width="72" height="36"/>
+      <text class="st10" transform="translate(231.48 211.03) scale(.97 1)"><tspan x="0" y="0">4</tspan><tspan x="-19.62" y="14.17">民數記</tspan></text>
+    </g>
+    <g id="Deut_Box">
+      <rect class="st24" x="234" y="144" width="72" height="36"/>
+      <text class="st10" transform="translate(267.48 157.03) scale(.97 1)"><tspan x="0" y="0">5</tspan><tspan x="-31.42" y="14.17">申命記</tspan></text>
+    </g>
+    <g id="Joshua_Box">
+      <rect class="st24" x="270" y="198" width="72" height="36"/>
+      <text class="st10" transform="translate(303.48 211.03) scale(.97 1)"><tspan x="0" y="0">6</tspan><tspan x="-14.11" y="14.17">約書亞記</tspan></text>
+    </g>
+    <g id="Judges_Box">
+      <rect class="st24" x="342" y="198" width="72" height="36"/>
+      <text class="st10" transform="translate(375.48 211.03) scale(.97 1)"><tspan x="0" y="0">7</tspan><tspan x="-14.33" y="14.17">士師記</tspan></text>
+    </g>
+    <g id="Ruth_Box">
+      <rect class="st24" x="342" y="144" width="72" height="36"/>
+      <text class="st10" transform="translate(375.48 157.03) scale(.97 1)"><tspan x="0" y="0">8</tspan><tspan x="-8.63" y="14.17">路得記</tspan></text>
+    </g>
+    <g id="_x31_Sa_Box">
+      <rect class="st24" x="414" y="198" width="72" height="36"/>
+      <text class="st10" transform="translate(447.48 211.03) scale(.97 1)"><tspan x="0" y="0">9</tspan><tspan x="-19.54" y="14.17">撒母耳記上</tspan></text>
+    </g>
+    <g id="_x32_Sa_Box">
+      <rect class="st24" x="486" y="198" width="72" height="36"/>
+      <text class="st10" transform="translate(516.55 211.03) scale(.97 1)"><tspan x="0" y="0">10</tspan><tspan x="-16.51" y="14.17">撒母耳記下</tspan></text>
+    </g>
+    <g id="_x31_Ki_Box">
+      <rect class="st24" x="558" y="198" width="72" height="36"/>
+      <text class="st10" transform="translate(588.55 211.03) scale(.97 1)"><tspan x="0" y="0">11</tspan><tspan x="-11.72" y="14.17">列王紀上</tspan></text>
+    </g>
+    <g id="_x31_Ch_Box">
+      <rect class="st24" x="486" y="144" width="72" height="36"/>
+      <text class="st10" transform="translate(516.55 157.03) scale(.97 1)"><tspan x="0" y="0">13</tspan><tspan x="-24.09" y="14.17">歷代志上</tspan></text>
+    </g>
+    <g id="_x32_Ki_Box">
+      <rect class="st24" x="630" y="198" width="72" height="36"/>
+      <text class="st10" transform="translate(660.55 211.03) scale(.97 1)"><tspan x="0" y="0">12</tspan><tspan x="-11.72" y="14.17">列王紀下</tspan></text>
+    </g>
+    <g id="_x32_Ch_Box">
+      <rect class="st24" x="594" y="144" width="72" height="36"/>
+      <text class="st10" transform="translate(624.55 157.03) scale(.97 1)"><tspan x="0" y="0">14</tspan><tspan x="-24.09" y="14.17">歷代志下</tspan></text>
+    </g>
+    <g id="Nehemiah_Box">
+      <rect class="st24" x="882" y="198" width="72" height="36"/>
+      <text class="st10" transform="translate(912.55 211.03) scale(.97 1)"><tspan x="0" y="0">16</tspan><tspan x="-19.45" y="14.17">尼希米記</tspan></text>
+    </g>
+    <g id="Esther_Box">
+      <rect class="st24" x="810" y="144" width="72" height="36"/>
+      <text class="st10" transform="translate(840.55 157.03) scale(.97 1)"><tspan x="0" y="0">17</tspan><tspan x="-9.3" y="14.17">以斯帖記</tspan></text>
+    </g>
+    <g id="Ezra_Box">
+      <rect class="st24" x="810" y="198" width="72" height="36"/>
+      <text class="st10" transform="translate(840.55 211.03) scale(.97 1)"><tspan x="0" y="0">15</tspan><tspan x="-4.15" y="14.17">以斯拉記</tspan></text>
+    </g>
+    <rect class="st27" x="768" y="35" width="63.54" height="27" rx="4.41" ry="4.41"/>
+    <text class="st6" transform="translate(773.11 54.03)"><tspan x="0" y="0">歷史書</tspan></text>
+    <text class="st16" transform="translate(183.5 123)"><tspan x="0" y="0">第1-5卷書也稱為</tspan></text>
+    <text class="st16" transform="translate(178.1 134.11)"><tspan x="0" y="0">律法書或摩西五經</tspan></text>
+  </g>
+  <g id="OT_Timeline">
+    <text class="st13" transform="translate(45 342) rotate(-90)"><tspan x="0" y="0">百姓</tspan></text>
+    <g>
+      <path class="st0" d="M54,243"/>
+      <path class="st0" d="M954,243"/>
+      <line class="st0" x1="54" y1="247.5" x2="954" y2="247.5"/>
+      <line class="st0" x1="936.42" y1="243" x2="936.42" y2="252"/>
+      <line class="st3" x1="918.62" y1="243" x2="918.62" y2="252"/>
+      <line class="st0" x1="901.04" y1="243" x2="901.04" y2="252"/>
+      <line class="st0" x1="883.47" y1="243" x2="883.47" y2="252"/>
+      <line class="st0" x1="865.67" y1="243" x2="865.67" y2="252"/>
+      <line class="st3" x1="848.09" y1="243" x2="848.09" y2="252"/>
+      <line class="st0" x1="830.51" y1="243" x2="830.51" y2="252"/>
+      <line class="st0" x1="812.72" y1="243" x2="812.72" y2="252"/>
+      <line class="st0" x1="795.14" y1="243" x2="795.14" y2="252"/>
+      <line class="st0" x1="777.56" y1="243" x2="777.56" y2="252"/>
+      <line class="st0" x1="759.98" y1="243" x2="759.98" y2="252"/>
+      <line class="st0" x1="742.18" y1="243" x2="742.18" y2="252"/>
+      <line class="st0" x1="724.61" y1="243" x2="724.61" y2="252"/>
+      <line class="st0" x1="707.03" y1="243" x2="707.03" y2="252"/>
+      <line class="st0" x1="689.23" y1="243" x2="689.23" y2="252"/>
+      <line class="st3" x1="671.65" y1="243" x2="671.65" y2="252"/>
+      <line class="st0" x1="654.07" y1="243" x2="654.07" y2="252"/>
+      <line class="st0" x1="636.28" y1="243" x2="636.28" y2="252"/>
+      <line class="st0" x1="618.7" y1="243" x2="618.7" y2="252"/>
+      <line class="st3" x1="601.12" y1="243" x2="601.12" y2="252"/>
+      <line class="st0" x1="583.32" y1="243" x2="583.32" y2="252"/>
+      <line class="st0" x1="565.74" y1="243" x2="565.74" y2="252"/>
+      <line class="st0" x1="548.17" y1="243" x2="548.17" y2="252"/>
+      <line class="st0" x1="530.37" y1="243" x2="530.37" y2="252"/>
+      <line class="st0" x1="512.79" y1="243" x2="512.79" y2="252"/>
+      <line class="st0" x1="495.21" y1="243" x2="495.21" y2="252"/>
+      <line class="st0" x1="477.63" y1="243" x2="477.63" y2="252"/>
+      <line class="st0" x1="459.84" y1="243" x2="459.84" y2="252"/>
+      <line class="st3" x1="442.26" y1="243" x2="442.26" y2="252"/>
+      <line class="st0" x1="424.68" y1="243" x2="424.68" y2="252"/>
+      <line class="st0" x1="406.88" y1="243" x2="406.88" y2="252"/>
+      <line class="st0" x1="389.3" y1="243" x2="389.3" y2="252"/>
+      <line class="st3" x1="371.73" y1="243" x2="371.73" y2="252"/>
+      <line class="st0" x1="353.93" y1="243" x2="353.93" y2="252"/>
+      <line class="st0" x1="336.35" y1="243" x2="336.35" y2="252"/>
+      <line class="st0" x1="318.77" y1="243" x2="318.77" y2="252"/>
+      <line class="st3" x1="300.97" y1="243" x2="300.97" y2="252"/>
+      <line class="st0" x1="283.4" y1="243" x2="283.4" y2="252"/>
+      <line class="st0" x1="265.82" y1="243" x2="265.82" y2="252"/>
+      <line class="st0" x1="248.02" y1="243" x2="248.02" y2="252"/>
+      <line class="st0" x1="230.44" y1="243" x2="230.44" y2="252"/>
+      <line class="st0" x1="212.86" y1="243" x2="212.86" y2="252"/>
+      <line class="st0" x1="195.28" y1="243" x2="195.28" y2="252"/>
+      <line class="st0" x1="177.49" y1="243" x2="177.49" y2="252"/>
+      <line class="st29" x1="159.91" y1="243" x2="159.91" y2="252"/>
+      <line class="st0" x1="142.33" y1="243" x2="142.33" y2="252"/>
+      <line class="st0" x1="124.53" y1="243" x2="124.53" y2="252"/>
+      <line class="st0" x1="106.95" y1="243" x2="106.95" y2="252"/>
+      <line class="st29" x1="89.38" y1="243" x2="89.38" y2="252"/>
+      <line class="st0" x1="71.58" y1="243" x2="71.58" y2="252"/>
+    </g>
+    <text class="st4" transform="translate(63 297)"><tspan x="0" y="0">亞伯拉罕</tspan><tspan x="0" y="14.4">以撒</tspan><tspan x="0" y="28.8">雅各</tspan><tspan x="0" y="43.2">約瑟</tspan></text>
+    <rect class="st23" x="751.5" y="288.49" width="9" height="9"/>
+    <text class="st4" transform="translate(144 297)"><tspan x="0" y="0">摩西</tspan></text>
+    <text class="st9" transform="translate(715.25 210.25)"><tspan x="0" y="0">被擄到巴比倫</tspan></text>
+    <text class="st17" transform="translate(33 45)"><tspan x="0" y="0">舊約結構與時間軸</tspan></text>
+    <text class="st18" transform="translate(36 59)"><tspan x="0" y="0">作者：Shawn Handran</tspan></text>
+    <text class="st15" transform="translate(45 417.88) rotate(-90)"><tspan x="0" y="0">事件</tspan></text>
+    <text class="st14" transform="translate(63 369)"><tspan x="0" y="0">創造</tspan><tspan x="0" y="14.4">墮落</tspan><tspan x="0" y="28.8">洪水</tspan><tspan x="0" y="43.2">列國</tspan><tspan x="0" y="57.6">聖約</tspan></text>
+    <text class="st14" transform="translate(144 369)"><tspan x="0" y="0">為奴</tspan><tspan x="0" y="14.4">十災</tspan><tspan x="0" y="28.8">逾越節</tspan><tspan x="0" y="43.2">自由</tspan><tspan x="0" y="57.6">律法</tspan></text>
+    <text class="st4" transform="translate(288 297)"><tspan x="0" y="0">約書亞</tspan></text>
+    <text class="st4" transform="translate(360 297)"><tspan x="0" y="0">基甸</tspan><tspan x="0" y="14.4">參孫</tspan><tspan x="0" y="28.8">路得</tspan><tspan x="0" y="43.2">撒母耳</tspan></text>
+    <text class="st4" transform="translate(432 297)"><tspan x="0" y="0">撒母耳</tspan><tspan x="0" y="14.4">掃羅</tspan><tspan x="0" y="28.8">大衛</tspan></text>
+    <text class="st4" transform="translate(576 297)"><tspan x="0" y="0">所羅門</tspan><tspan x="0" y="14.4">以利亞</tspan></text>
+    <text class="st4" transform="translate(648 297)"><tspan x="0" y="0">希西家</tspan><tspan x="0" y="14.4">約西亞</tspan></text>
+    <text class="st18" transform="translate(819 108)"><tspan x="0" y="0">時間軸未按比例繪製</tspan></text>
+    <rect class="st23" x="625.5" y="360.33" width="9" height="9"/>
+    <text class="st14" transform="translate(612 369)"><tspan x="0" y="0">分裂王國</tspan></text>
+    <text class="st14" transform="translate(432 369)"><tspan x="0" y="0">王國時期</tspan></text>
+    <rect class="st23" x="913.12" y="361.33" width="9" height="9"/>
+    <text class="st14" transform="translate(819 369)"><tspan x="0" y="0">重建耶路撒冷</tspan></text>
+    <text class="st4" transform="translate(819 297)"><tspan x="0" y="0">所羅巴伯</tspan><tspan x="0" y="14.4">以斯帖</tspan><tspan x="0" y="28.8">以斯拉</tspan></text>
+    <rect class="st23" x="913.5" y="288.49" width="9" height="9"/>
+    <text class="st4" transform="translate(900 297)"><tspan x="0" y="0">尼希米</tspan></text>
+    <text class="st14" transform="translate(216 369)"><tspan x="0" y="0">懷疑</tspan><tspan x="0" y="14.4">漂流</tspan></text>
+    <text class="st14" transform="translate(288 369)"><tspan x="0" y="0">應許</tspan><tspan x="0" y="14.4">之地</tspan></text>
+    <text class="st14" transform="translate(360 369)"><tspan x="0" y="0">各人</tspan><tspan x="0" y="14.4">都行</tspan><tspan x="0" y="28.8">自己眼中</tspan><tspan x="0" y="43.2">看為正</tspan><tspan x="0" y="57.6">的事</tspan></text>
+    <rect class="st23" x="751.5" y="360.33" width="9" height="9"/>
+    <text class="st14" transform="translate(744.75 368.75)"><tspan x="0" y="0">被擄</tspan></text>
+    <text class="st18" transform="translate(31.55 500.88)"><tspan x="0" y="0">聖經歷史互動時間軸，作者：Shawn Handran (2007)</tspan></text>
+    <text class="st18" transform="translate(31.55 488.01)"><tspan x="0" y="0">資料來源：</tspan></text>
+    <text class="st14" transform="translate(499 369)"><tspan x="0" y="0">聯合王國</tspan></text>
+    <g>
+      <path class="st28" d="M118.82,259.75c0,4.28-3.19,7.75-7.12,7.75h-44.65c-3.93,0-7.12-3.47-7.12-7.75h0c0-4.28,3.19-7.75,7.12-7.75h44.65c3.93,0,7.12,3.47,7.12,7.75h0Z"/>
+      <text class="st12" transform="translate(64.14 263.27)"><tspan x="0" y="0">? - 2000bc</tspan></text>
+    </g>
+    <g>
+      <path class="st28" d="M182.41,259.75c0,4.28-2.44,7.75-5.44,7.75h-34.12c-3,0-5.44-3.47-5.44-7.75h0c0-4.28,2.44-7.75,5.44-7.75h34.12c3,0,5.44,3.47,5.44,7.75h0Z"/>
+      <text class="st12" transform="translate(141.5 263.27)"><tspan x="0" y="0">1500bc</tspan></text>
+    </g>
+    <g>
+      <path class="st28" d="M327.92,259.75c0,4.28-2.44,7.75-5.44,7.75h-34.12c-3,0-5.44-3.47-5.44-7.75h0c0-4.28,2.43-7.75,5.44-7.75h34.12c3,0,5.44,3.47,5.44,7.75h0Z"/>
+      <text class="st12" transform="translate(287 263.27)"><tspan x="0" y="0">1400bc</tspan></text>
+    </g>
+    <g>
+      <path class="st28" d="M402.48,259.75c0,4.28-2.45,7.75-5.46,7.75h-34.28c-3.02,0-5.46-3.47-5.46-7.75h0c0-4.28,2.45-7.75,5.46-7.75h34.28c3.02,0,5.46,3.47,5.46,7.75h0Z"/>
+      <text class="st12" transform="translate(361.46 263.27)"><tspan x="0" y="0">1100bc</tspan></text>
+    </g>
+    <g>
+      <path class="st28" d="M475.01,259.75c0,4.28-2.45,7.75-5.46,7.75h-34.28c-3.02,0-5.46-3.47-5.46-7.75h0c0-4.28,2.45-7.75,5.46-7.75h34.28c3.02,0,5.46,3.47,5.46,7.75h0Z"/>
+      <text class="st12" transform="translate(433.99 263.27)"><tspan x="0" y="0">1050bc</tspan></text>
+    </g>
+    <g>
+      <path class="st28" d="M621,259.75c0,4.28-1.95,7.75-4.35,7.75h-27.3c-2.4,0-4.35-3.47-4.35-7.75h0c0-4.28,1.95-7.75,4.35-7.75h27.3c2.4,0,4.35,3.47,4.35,7.75h0Z"/>
+      <text class="st12" transform="translate(586.33 263.27)"><tspan x="0" y="0">970bc</tspan></text>
+    </g>
+    <g>
+      <path class="st28" d="M693,259.75c0,4.28-1.95,7.75-4.35,7.75h-27.3c-2.4,0-4.35-3.47-4.35-7.75h0c0-4.28,1.95-7.75,4.35-7.75h27.3c2.4,0,4.35,3.47,4.35,7.75h0Z"/>
+      <text class="st12" transform="translate(659.66 263.27)"><tspan x="0" y="0">850bc</tspan></text>
+    </g>
+    <g>
+      <path class="st28" d="M781.73,226.36c0,4.28-3.41,7.75-7.61,7.75h-47.78c-4.2,0-7.61-3.47-7.61-7.75h0c0-4.28,3.41-7.75,7.61-7.75h47.78c4.21,0,7.61,3.47,7.61,7.75h0Z"/>
+      <text class="st12" transform="translate(721.27 229.89)"><tspan x="0" y="0">608 - 538bc</tspan></text>
+    </g>
+    <g>
+      <path class="st28" d="M871.67,259.75c0,4.28-1.95,7.75-4.35,7.75h-27.3c-2.4,0-4.35-3.47-4.35-7.75h0c0-4.28,1.95-7.75,4.35-7.75h27.3c2.4,0,4.35,3.47,4.35,7.75h0Z"/>
+      <text class="st12" transform="translate(838.33 263.27)"><tspan x="0" y="0">500bc</tspan></text>
+    </g>
+    <g>
+      <path class="st28" d="M943.67,259.75c0,4.28-1.95,7.75-4.35,7.75h-27.3c-2.4,0-4.35-3.47-4.35-7.75h0c0-4.28,1.95-7.75,4.35-7.75h27.3c2.4,0,4.35,3.47,4.35,7.75h0Z"/>
+      <text class="st12" transform="translate(910.33 263.27)"><tspan x="0" y="0">450bc</tspan></text>
+    </g>
+    <line class="st2" x1="54" y1="351.67" x2="954" y2="351.67"/>
+    <text class="st4" transform="translate(740 297)"><tspan x="0" y="0">但以理</tspan></text>
+    <text class="st18" transform="translate(31.55 513.75)"><tspan x="0" y="0">聖經基礎，作者：Shawn Handran (2008)</tspan></text>
+    <text class="st18" transform="translate(31.55 526.62)"><tspan x="0" y="0">舊約遊蹤 (Walk Thru the Bible, 1972-94)</tspan></text>
+    <text class="st18" transform="translate(31.55 539.49)"><tspan x="0" y="0">雷歷研讀本聖經 (Moody Press, 1976-78)</tspan></text>
+  </g>
+  <g id="CreativeCommons">
+    <g class="st26">
+      <g>
+        <circle class="st23" cx="20" cy="592" r="20"/>
+        <path class="st31" d="M19.78,580.9c3.1,0,5.75,1.08,7.93,3.25,1.04,1.04,1.84,2.24,2.38,3.58.54,1.34.81,2.76.81,4.27s-.27,2.94-.8,4.27c-.54,1.33-1.32,2.5-2.37,3.52-1.08,1.07-2.31,1.89-3.69,2.46-1.37.57-2.79.85-4.26.85s-2.87-.28-4.21-.84c-1.34-.56-2.54-1.37-3.61-2.44-1.06-1.06-1.87-2.26-2.43-3.6-.56-1.33-.83-2.74-.83-4.22s.28-2.88.84-4.23c.56-1.35,1.38-2.57,2.45-3.64,2.11-2.15,4.71-3.23,7.79-3.23ZM19.82,582.9c-2.54,0-4.67.88-6.4,2.66-.87.88-1.54,1.88-2.01,2.98-.47,1.1-.7,2.26-.7,3.46s.23,2.34.7,3.44c.47,1.1,1.14,2.09,2.01,2.95.87.87,1.86,1.53,2.95,1.98,1.1.46,2.25.68,3.45.68s2.34-.23,3.46-.69c1.12-.46,2.12-1.13,3.02-2,1.73-1.69,2.6-3.81,2.6-6.36,0-1.23-.23-2.39-.67-3.49-.45-1.1-1.1-2.07-1.96-2.93-1.78-1.78-3.93-2.67-6.44-2.67ZM19.68,590.16l-1.49.77c-.16-.33-.35-.56-.58-.69-.23-.13-.45-.2-.64-.2-.99,0-1.49.66-1.49,1.96,0,.59.13,1.07.38,1.43.25.36.62.54,1.11.54.65,0,1.1-.32,1.37-.95l1.37.69c-.29.54-.69.97-1.21,1.28-.51.31-1.08.47-1.7.47-.99,0-1.79-.3-2.4-.91-.61-.61-.91-1.45-.91-2.54s.31-1.9.92-2.52c.61-.62,1.39-.93,2.33-.93,1.38,0,2.36.53,2.95,1.6ZM26.08,590.16l-1.47.77c-.16-.33-.35-.56-.58-.69-.23-.13-.45-.2-.66-.2-.99,0-1.49.66-1.49,1.96,0,.59.13,1.07.38,1.43.25.36.62.54,1.11.54.65,0,1.1-.32,1.37-.95l1.39.69c-.3.54-.71.97-1.23,1.28-.52.31-1.08.47-1.68.47-1,0-1.81-.3-2.41-.91-.6-.61-.9-1.45-.9-2.54s.31-1.9.92-2.52c.61-.62,1.39-.93,2.33-.93,1.37,0,2.35.53,2.93,1.6Z"/>
+      </g>
+    </g>
+    <text/>
+    <text/>
+  </g>
+</svg>
