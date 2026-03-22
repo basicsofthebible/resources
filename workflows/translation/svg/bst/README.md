@@ -1,6 +1,6 @@
-# BST SVG Translation Workflow
+# SVG Translation Workflow
 
-This directory contains a two-step notebook workflow for extracting text from SVG files, preparing that text for LLM translation, and writing translated outputs back to JSON and SVG files.
+This directory contains a two-step notebook workflow for extracting text from SVG files, preparing that text for LLM translation, and writing translated outputs back to JSON and SVG files. The example SVG files here are from *Bible Structure and Timeline* from [basicsofthebible.org](https://basicsofthebible.org/bst/)
 
 ## Contents
 
