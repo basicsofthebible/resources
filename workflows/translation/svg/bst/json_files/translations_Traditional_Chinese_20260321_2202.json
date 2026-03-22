@@ -1,0 +1,798 @@
+[
+  {
+    "unit_key": "dff2455410d362f483bc04508cbcb5753bca52e3",
+    "translated_text": "耶穌的復活是歷史上證據最充分的事件"
+  },
+  {
+    "unit_key": "28f9e896771634fe5b28da1b42499b9af0f75317",
+    "translated_text": "歷史"
+  },
+  {
+    "unit_key": "f68d6449d4fb305e4ee8fbc2c63e27b3c8804cbf",
+    "translated_text": "使徒約翰"
+  },
+  {
+    "unit_key": "a4653f3314eea5bd559a4ee5a5d4fe270c468cde",
+    "translated_text": "使徒馬太"
+  },
+  {
+    "unit_key": "868584564de32b98e7ea2cdfbf70b0fff67c3f03",
+    "translated_text": "約翰·馬可"
+  },
+  {
+    "unit_key": "bb0c7e00990a6f81b12f907151f44957605ce468",
+    "translated_text": "醫生路加，保羅的同伴"
+  },
+  {
+    "unit_key": "32425388bc206477680f01e421b5f721020989c8",
+    "translated_text": "醫生路加，保羅的同伴"
+  },
+  {
+    "unit_key": "7aef81e2f7aec81230d0a96a083f7441fb6d6ac3",
+    "translated_text": "使徒行傳"
+  },
+  {
+    "unit_key": "b14fd7d7025e63af23543b038ac1a4fbd28dacb0",
+    "translated_text": "約翰福音"
+  },
+  {
+    "unit_key": "d279e3b729c3b4b8eef8d006af038782951c6807",
+    "translated_text": "路加福音"
+  },
+  {
+    "unit_key": "4a45cc6a167a34beb384e76385100a0f81d2a47d",
+    "translated_text": "馬可福音"
+  },
+  {
+    "unit_key": "e3482f59434def2a9d5a4e0cfb74946c862e81cc",
+    "translated_text": "馬太福音"
+  },
+  {
+    "unit_key": "e5682f8ffb38aea1ee2aaca2786366ffb8f92a62",
+    "translated_text": "書信"
+  },
+  {
+    "unit_key": "7f8278220b373d51ddf2e08e4165dfea8c513a13",
+    "translated_text": "耶穌同母異父的兄弟"
+  },
+  {
+    "unit_key": "7001238604953135d45ed74b4e551684a37d150f",
+    "translated_text": "耶穌同母異父的兄弟"
+  },
+  {
+    "unit_key": "51b87cff0d40dc18eb9ce6b875125424be0068c3",
+    "translated_text": "使徒約翰"
+  },
+  {
+    "unit_key": "b98f5d954f51e354caa6149470f04bcf00c45757",
+    "translated_text": "使徒彼得"
+  },
+  {
+    "unit_key": "da5b3768c9ca333250256c1d329934eb12f1b657",
+    "translated_text": "作者不詳，可能是保羅"
+  },
+  {
+    "unit_key": "f01bcedd567b8cd1b012a6236563bea8b5014dc1",
+    "translated_text": "使徒保羅"
+  },
+  {
+    "unit_key": "d8b7858c08ee696be626d5a06078a337640e7a41",
+    "translated_text": "使徒保羅"
+  },
+  {
+    "unit_key": "d803fa125abe26abc70ece86d6416851ea722649",
+    "translated_text": "歌羅西書"
+  },
+  {
+    "unit_key": "f98e99f19c82899125e36c92e25d278ce2829b0d",
+    "translated_text": "以弗所書"
+  },
+  {
+    "unit_key": "279e90a7aa8b17e14a0e2730f85fc51fb3ab8be4",
+    "translated_text": "加拉太書"
+  },
+  {
+    "unit_key": "70f802cde419ffaeeb481283f5c44a75a1141995",
+    "translated_text": "希伯來書"
+  },
+  {
+    "unit_key": "97430bb488f1779a1fe61f17babbe263aa6a82a0",
+    "translated_text": "雅各書"
+  },
+  {
+    "unit_key": "d922f2ccb599c40c339409263919649efea12daa",
+    "translated_text": "猶大書"
+  },
+  {
+    "unit_key": "dc2b032c047217ee9b8120dd6c2573ef88baf718",
+    "translated_text": "腓利門書"
+  },
+  {
+    "unit_key": "75107b3bc91f8b1b656ab310ee6ad26de456539d",
+    "translated_text": "腓立比書"
+  },
+  {
+    "unit_key": "3d9b4db887df7ee71e41a67fe54bade0eb1cd8eb",
+    "translated_text": "羅馬書"
+  },
+  {
+    "unit_key": "235a7ee98d50942b914930c6d0be0e8b8467e0cb",
+    "translated_text": "提多書"
+  },
+  {
+    "unit_key": "7b2610bc045bba238205801016d8173d1a84582e",
+    "translated_text": "哥林多前書"
+  },
+  {
+    "unit_key": "b8d2d5485420e13b2d535454bd38313f1c1bfe3c",
+    "translated_text": "約翰一書"
+  },
+  {
+    "unit_key": "550f62a29e1f0032cca4348d3d6b6c08c73582e4",
+    "translated_text": "彼得前書"
+  },
+  {
+    "unit_key": "d01d031096c18ee7b9155c47851164793fbb28a3",
+    "translated_text": "帖撒羅尼迦前書"
+  },
+  {
+    "unit_key": "a881d1abac2a590e98784c7479465b677380efea",
+    "translated_text": "提摩太前書"
+  },
+  {
+    "unit_key": "7b3a5ea083eb127b3ffd8914f8466cf89486708c",
+    "translated_text": "哥林多後書"
+  },
+  {
+    "unit_key": "0f15756f3d3f0b33cb66861a582723f4ac488765",
+    "translated_text": "約翰二書"
+  },
+  {
+    "unit_key": "c8d50b5c5a820eea5eec83879b264a93f28baada",
+    "translated_text": "彼得後書"
+  },
+  {
+    "unit_key": "02e8ab4eed5e4ef35dab97db5ce6d5eb18707ad7",
+    "translated_text": "帖撒羅尼迦後書"
+  },
+  {
+    "unit_key": "9b46de366bec1ab734e304e13c78417d258a432e",
+    "translated_text": "提摩太後書"
+  },
+  {
+    "unit_key": "fd454f643de90172e7598a97f95f9cc5770faf39",
+    "translated_text": "約翰三書"
+  },
+  {
+    "unit_key": "d8e1995c8d0e425357709768347319733a077b0a",
+    "translated_text": "預言"
+  },
+  {
+    "unit_key": "c061cdcf334357bcb762b412a8a1f17b2bc8957d",
+    "translated_text": "使徒約翰"
+  },
+  {
+    "unit_key": "e954c54e575a308da13b07c45c256216a7bd8c37",
+    "translated_text": "啟示錄"
+  },
+  {
+    "unit_key": "06e47abe719eda50f63e94ecd25a8213a94807f7",
+    "translated_text": "耶穌降生"
+  },
+  {
+    "unit_key": "809127f8e7a8996c6b37a9e2111a92232d453293",
+    "translated_text": "時間軸未按比例繪製"
+  },
+  {
+    "unit_key": "6ef0fb42ccc88235b0d7ca2172fc0c624ea36001",
+    "translated_text": "起初..."
+  },
+  {
+    "unit_key": "5a4e9c06222172bd221754428aac7f476849f926",
+    "translated_text": "公開"
+  },
+  {
+    "unit_key": "937e4a5f63246ad5707f7281e4bd34b0e9b39c80",
+    "translated_text": "耶穌的"
+  },
+  {
+    "unit_key": "ae8ca782cbc99dd9a266ee5fe1b4d3197bdb90fa",
+    "translated_text": "事工"
+  },
+  {
+    "unit_key": "520bd2007c0c1042d93d4e477ae7dee1274d577f",
+    "translated_text": "釘十字架"
+  },
+  {
+    "unit_key": "846f2ae617eaea849adeef3d870c3c6cd86f9e4e",
+    "translated_text": "復活"
+  },
+  {
+    "unit_key": "1cf8416c7bbbb4dde7ebdcf4a78de0ce7b7e6a10",
+    "translated_text": "升天"
+  },
+  {
+    "unit_key": "bb73716d956abccf67c9f3d3bc91330f6406ecab",
+    "translated_text": "聖靈"
+  },
+  {
+    "unit_key": "362c9f1ea3a4d0b27f46bdec130922655efd3041",
+    "translated_text": "將"
+  },
+  {
+    "unit_key": "c94717a37384c6421feadfcd09f9f3011d839fa6",
+    "translated_text": "福音"
+  },
+  {
+    "unit_key": "5a3a560254ca49e014039755a2c4707e5df473cf",
+    "translated_text": "傳遍世界"
+  },
+  {
+    "unit_key": "197e4fa14b8ac25a1a9473936bbc9dea39912c63",
+    "translated_text": "新天"
+  },
+  {
+    "unit_key": "888b9f4f133bc8415ab9de5ba831b515e2fb3e8c",
+    "translated_text": "新地"
+  },
+  {
+    "unit_key": "05ca8550f2b7518860dfabac3066ce23c9ae8b4d",
+    "translated_text": "可怕的"
+  },
+  {
+    "unit_key": "45549ad042f6864eecfb6a5e0475175edee2271a",
+    "translated_text": "日子"
+  },
+  {
+    "unit_key": "1ec9cf22c3202fc69e1d1583c0e6cfbc4d8e50ec",
+    "translated_text": "事件"
+  },
+  {
+    "unit_key": "b5b0db92d236429ce98e112d54235fafd4405631",
+    "translated_text": "90s"
+  },
+  {
+    "unit_key": "293ed46790097cb65bad17d311869b41ec270064",
+    "translated_text": "現在"
+  },
+  {
+    "unit_key": "c47de2390aed7604ce25fd238272e1c12bef9d43",
+    "translated_text": "未來"
+  },
+  {
+    "unit_key": "418c1c1bc2c981ef4684fca3a4a2aac939aeb56c",
+    "translated_text": "30s"
+  },
+  {
+    "unit_key": "38241efa2df703f345b1e730213cf9da81fc3ede",
+    "translated_text": "40s"
+  },
+  {
+    "unit_key": "78b171372f054173153bdb25aeaeedb89422200b",
+    "translated_text": "50s"
+  },
+  {
+    "unit_key": "dab29b42242c8c690588f59205436b389a66571b",
+    "translated_text": "60s"
+  },
+  {
+    "unit_key": "68fc04b05533030a4217a7ef78143ef0cf6b1021",
+    "translated_text": "70s"
+  },
+  {
+    "unit_key": "7453628e6e5c5a9a5b3b63336b3959d35edf7d04",
+    "translated_text": "80s"
+  },
+  {
+    "unit_key": "dd8ea9710dcb916d5bc4e26b28e526ec30aea7a1",
+    "translated_text": "聖經歷史互動時間軸，Shawn Handran (2007)"
+  },
+  {
+    "unit_key": "b79428e51ba811f5097c10713e194f7c2d395212",
+    "translated_text": "聖經基礎，Shawn Handran (2008)"
+  },
+  {
+    "unit_key": "79279c9586ffc1b96fd49849fe3bb59da9435cce",
+    "translated_text": "雷歷研讀本聖經 (Moody Press, 1976-78)"
+  },
+  {
+    "unit_key": "77f0153153b40d826113c94f57e748cda5d019b9",
+    "translated_text": "資料來源："
+  },
+  {
+    "unit_key": "ec84caa6e50bfdf3ab1cfd81032c9608f7bb7243",
+    "translated_text": "新約結構與時間軸"
+  },
+  {
+    "unit_key": "60b64a6252f32a209a4999aadb8dcfa0f770bb44",
+    "translated_text": "作者：Shawn Handran"
+  },
+  {
+    "unit_key": "e9a628e6822523e1ce769996096d9091b151afef",
+    "translated_text": "歷史書"
+  },
+  {
+    "unit_key": "7cec55ac6971e3ae1717b1f811ab308f342a620a",
+    "translated_text": "第1-5卷書也稱為"
+  },
+  {
+    "unit_key": "a11745ccfeee8b0cb1302e152761cd8e311b5881",
+    "translated_text": "律法書或摩西五經"
+  },
+  {
+    "unit_key": "66f06785d214892e9970fcadd88f315868331abc",
+    "translated_text": "申命記"
+  },
+  {
+    "unit_key": "c6af4b23834486f221d22d5e43f79d4070f15f7e",
+    "translated_text": "以斯帖記"
+  },
+  {
+    "unit_key": "e4da08ff0b652fe0c2ccd4af9f1b7abd6f4579d1",
+    "translated_text": "出埃及記"
+  },
+  {
+    "unit_key": "4279cfa4cc44eed6d691c78f7bf540d2e66f03a7",
+    "translated_text": "以斯拉記"
+  },
+  {
+    "unit_key": "ce596454d01dabf7880969e86af915c1c0343a2c",
+    "translated_text": "創世記"
+  },
+  {
+    "unit_key": "c0f7116454d0433811b3cbde5877162ce312bd16",
+    "translated_text": "約書亞記"
+  },
+  {
+    "unit_key": "f22cf95355b47f8e81150325e0c65f5d2499faa9",
+    "translated_text": "士師記"
+  },
+  {
+    "unit_key": "f7d9324cf3166cef9ab3a908931b28d26f306a8a",
+    "translated_text": "利未記"
+  },
+  {
+    "unit_key": "3c4555c24e7d98dc33aa9f6b0ed5d066044ef417",
+    "translated_text": "尼希米記"
+  },
+  {
+    "unit_key": "4458c2c8fb048a15b48af7e35da8be9911e6caf0",
+    "translated_text": "民數記"
+  },
+  {
+    "unit_key": "db2d0ee334d9fa71de7cbcf04f5bd14e1a0b24a9",
+    "translated_text": "路得記"
+  },
+  {
+    "unit_key": "bbdbfcd28a4fc287d7b42f91335175bb1782aea3",
+    "translated_text": "歷代志上"
+  },
+  {
+    "unit_key": "c64e4a5f7fa26ca101b1808d0a85911d4fc77a21",
+    "translated_text": "列王紀上"
+  },
+  {
+    "unit_key": "1eeb6ff32c62d4b6818de3a77226746a94a420cd",
+    "translated_text": "撒母耳記上"
+  },
+  {
+    "unit_key": "8124d088b5135c90883ba4286a974436ba50562b",
+    "translated_text": "歷代志下"
+  },
+  {
+    "unit_key": "27ff1bda035cf1b9e386d5360ed95a44d537a999",
+    "translated_text": "列王紀下"
+  },
+  {
+    "unit_key": "b975bdc85b7cc88aa3f2ec8e5168c62090495c4b",
+    "translated_text": "撒母耳記下"
+  },
+  {
+    "unit_key": "203f3c56322a3c1502578420f33f916655d52f4e",
+    "translated_text": "詩歌"
+  },
+  {
+    "unit_key": "5d32bd84f01b20b83b5dbb68bbba3020ce834fb7",
+    "translated_text": "約伯的時代"
+  },
+  {
+    "unit_key": "7ab4151cce712be3d32256e8153dc609604fb6bf",
+    "translated_text": "多由大衛王所寫"
+  },
+  {
+    "unit_key": "28e53c89b350df3ea98f30e3306be24d8662f852",
+    "translated_text": "所羅門王所寫"
+  },
+  {
+    "unit_key": "6cd5431e2ce1a7321283a9b39b0f0ac39f1fffa1",
+    "translated_text": "(非寫作時間)"
+  },
+  {
+    "unit_key": "b041f898b03c68614a02ce7866caa07818a28ff4",
+    "translated_text": "傳道書"
+  },
+  {
+    "unit_key": "0495596ecfbcb472f9672505d11afc7d40221c0c",
+    "translated_text": "約伯記"
+  },
+  {
+    "unit_key": "c8a0fdf2cc07f8f00899fdeb5be8fbc5ab7c7e1b",
+    "translated_text": "箴言"
+  },
+  {
+    "unit_key": "d5deaf4f659a3dd2311cb5e77243f9434447e580",
+    "translated_text": "詩篇"
+  },
+  {
+    "unit_key": "18a33a769394ce8693e12ca9d667c90716e22062",
+    "translated_text": "雅歌"
+  },
+  {
+    "unit_key": "7c8bcb142cc8d2c4f902251cb982e187072eb946",
+    "translated_text": "被擄前"
+  },
+  {
+    "unit_key": "05af0214060bd3827bbee17280d7c7fe7369052b",
+    "translated_text": "被擄前"
+  },
+  {
+    "unit_key": "41f10b9843fb583aad02e80d1b601cd824490ef1",
+    "translated_text": "被擄前"
+  },
+  {
+    "unit_key": "f7310c4dce2bb71b7b02f4eb433dbfa3dabcdd79",
+    "translated_text": "被擄前"
+  },
+  {
+    "unit_key": "85512658216a622ffe00c91850218546ce638c4e",
+    "translated_text": "耶利米哀歌寫於被擄期間"
+  },
+  {
+    "unit_key": "b86d2056768309c63ee545048615cad7ab7c084d",
+    "translated_text": "寫於被擄期間"
+  },
+  {
+    "unit_key": "ddb978afaac8a6b047ad62ab41be86a162e242fd",
+    "translated_text": "寫於被擄歸回後"
+  },
+  {
+    "unit_key": "4331011a79bd327b64e961917c522dcbc29a3375",
+    "translated_text": "以及耶路撒冷重建後"
+  },
+  {
+    "unit_key": "588a26e09e0ea0579dd2b83986d153be8df9d601",
+    "translated_text": "先知書"
+  },
+  {
+    "unit_key": "4c0a8280f7660a78df498bedc8df366c92f51faf",
+    "translated_text": "耶利米書寫於被擄前與被擄期間"
+  },
+  {
+    "unit_key": "ea40778aa24876a027ac449f9fa2e1e7f0e5d123",
+    "translated_text": "以賽亞書、約珥書、彌迦書、哈巴谷書和西番雅書"
+  },
+  {
+    "unit_key": "19b568abc588b4842f4e9c1460f05cf105e2c09c",
+    "translated_text": "約拿書與那鴻書寫給亞述"
+  },
+  {
+    "unit_key": "8b5be3f167fa531b8413ec25c9d3a0f58c47a0e8",
+    "translated_text": "俄巴底亞書寫給以東"
+  },
+  {
+    "unit_key": "b58936c1ce7224fa51c8d800e659d38f6ec3398c",
+    "translated_text": "何西阿書與阿摩司書寫給北國（以色列）"
+  },
+  {
+    "unit_key": "90e5dfdd57579e58d2cfa9fb3b16d9cfc3b0529e",
+    "translated_text": "以西結書與但以理書"
+  },
+  {
+    "unit_key": "2a7ceacb1a47286c1f937a02a4e9b0badbb36df2",
+    "translated_text": "哈該書、撒迦利亞書與瑪拉基書"
+  },
+  {
+    "unit_key": "c89c200562630775bf4372dfe8c7aa93edd1bc50",
+    "translated_text": "寫給南國（猶大）"
+  },
+  {
+    "unit_key": "e9e2f440238dde2069cd16f5ab4d10a45ecfe799",
+    "translated_text": "阿摩司書"
+  },
+  {
+    "unit_key": "7285d240c2d347d80ad9edfd01495838d44c4cb1",
+    "translated_text": "但以理書"
+  },
+  {
+    "unit_key": "e038c4bb2bb650145a0e0e285c2d00b7b7a914c8",
+    "translated_text": "以西結書"
+  },
+  {
+    "unit_key": "e45844f88712af436724d2a0ed7bc2d3007f0284",
+    "translated_text": "哈巴谷書"
+  },
+  {
+    "unit_key": "a6106d3f9d82d3250b8200ea3a65295826990733",
+    "translated_text": "哈該書"
+  },
+  {
+    "unit_key": "8cb49916a56bfd4564defcd329a90389195f08d0",
+    "translated_text": "何西阿書"
+  },
+  {
+    "unit_key": "802175e4ead5d44bccd849085d71ab9bbf69dd96",
+    "translated_text": "以賽亞書"
+  },
+  {
+    "unit_key": "b9eadd6ce9ce6bed2913657a1148808c5d7ed537",
+    "translated_text": "耶利米書"
+  },
+  {
+    "unit_key": "279c18d0243d5269af7516db92dcf2828c4124fc",
+    "translated_text": "約珥書"
+  },
+  {
+    "unit_key": "22235952353e1cdd9e1ced7878205ba84fdaaed3",
+    "translated_text": "約拿書"
+  },
+  {
+    "unit_key": "baf1941264bc0ee3601ac6e95501bc544cb06bd7",
+    "translated_text": "耶利米哀歌"
+  },
+  {
+    "unit_key": "a2f1d5e7b486975252a14e82138cb5c1baebc186",
+    "translated_text": "瑪拉基書"
+  },
+  {
+    "unit_key": "0c1f5f2e05fc6e36780e50b08e08403eda1972ba",
+    "translated_text": "彌迦書"
+  },
+  {
+    "unit_key": "2a64a8b65de589ebbb61309c41bd822191a5ec24",
+    "translated_text": "那鴻書"
+  },
+  {
+    "unit_key": "80bdffd6e7d0eda2dcc1c51221c42131bfe0fc78",
+    "translated_text": "俄巴底亞書"
+  },
+  {
+    "unit_key": "3ffd1ed2f7924d77746ebe5f7ddea530b9ead9dd",
+    "translated_text": "撒迦利亞書"
+  },
+  {
+    "unit_key": "461b4932949a93801259ca99ef66d1bf4cd5fe60",
+    "translated_text": "西番雅書"
+  },
+  {
+    "unit_key": "b5340d81aabc9d7732e594c6b541e58a41a4aad5",
+    "translated_text": "約書亞"
+  },
+  {
+    "unit_key": "538b342270442af07ccbba7219e9d96d50d46a72",
+    "translated_text": "基甸"
+  },
+  {
+    "unit_key": "097c225548f75d3ba829b22e62faff27a7ad33b0",
+    "translated_text": "參孫"
+  },
+  {
+    "unit_key": "7f900b63e9832a4afdae052ee8c45dea8d58fc7f",
+    "translated_text": "路得"
+  },
+  {
+    "unit_key": "6a8809f445b4dbed9a84b99e269eac8d8e152a9e",
+    "translated_text": "撒母耳"
+  },
+  {
+    "unit_key": "e046865dd3109d944fc206d02ee35da89b084e77",
+    "translated_text": "撒母耳"
+  },
+  {
+    "unit_key": "af9b093ee2bc08e60b76cf09f43f7c55e6d96cc6",
+    "translated_text": "掃羅"
+  },
+  {
+    "unit_key": "ec28a044e46fa64ad2d3e92ecd58d62239224d91",
+    "translated_text": "大衛"
+  },
+  {
+    "unit_key": "b88ca83f8c0a9c051c7263c486e6e0bdba14c35f",
+    "translated_text": "所羅門"
+  },
+  {
+    "unit_key": "3855144c183aaf48ff44a8adf775f76974f85bec",
+    "translated_text": "以利亞"
+  },
+  {
+    "unit_key": "9c103863358b157e5f5324fe9c0b9f4f1f7614e8",
+    "translated_text": "希西家"
+  },
+  {
+    "unit_key": "bbc33d2dda4277ded239cea60dba5986fc3d90c8",
+    "translated_text": "約西亞"
+  },
+  {
+    "unit_key": "3a670d9a1eb7ef84b1c1086b787176c2c66cdc47",
+    "translated_text": "時間軸未按比例繪製"
+  },
+  {
+    "unit_key": "d62844b2270515abe61b6daa2875e52ceababb67",
+    "translated_text": "分裂王國"
+  },
+  {
+    "unit_key": "6d8fb9f46240f7abcf8e6d41a31b57d15aeaf090",
+    "translated_text": "王國時期"
+  },
+  {
+    "unit_key": "fff13bd351f1a619112b263fd1621c13d4214b57",
+    "translated_text": "重建耶路撒冷"
+  },
+  {
+    "unit_key": "ba70e27e68b71db828388565285392b315181b47",
+    "translated_text": "所羅巴伯"
+  },
+  {
+    "unit_key": "de864bc559ec1de4804322d81f1ec7457f2d0188",
+    "translated_text": "以斯帖"
+  },
+  {
+    "unit_key": "2779aa26792adbb04b24cd5acf139ec7c9a92e6f",
+    "translated_text": "以斯拉"
+  },
+  {
+    "unit_key": "da478b96e53809b9072a9a70199990f02ed33778",
+    "translated_text": "百姓"
+  },
+  {
+    "unit_key": "7a74fc48e6041c44c2ebf7af50356fc29dc1ba39",
+    "translated_text": "尼希米"
+  },
+  {
+    "unit_key": "6198501a9fe28b778cc0007078604a641568d9b8",
+    "translated_text": "懷疑"
+  },
+  {
+    "unit_key": "8d57561c86d680575f1c3aaa12042a44461c6e5e",
+    "translated_text": "漂流"
+  },
+  {
+    "unit_key": "df93cf2be06511cffaac2fdf5fdfec5278ad967e",
+    "translated_text": "應許"
+  },
+  {
+    "unit_key": "710a5550b4e9475d436270773ddf7a2969a80e9f",
+    "translated_text": "之地"
+  },
+  {
+    "unit_key": "6e178444ac7bcc3f8db014b920156315205b7a1c",
+    "translated_text": "各人"
+  },
+  {
+    "unit_key": "0a08d648fb1a6de391eb76c8898929b5260f7191",
+    "translated_text": "都行"
+  },
+  {
+    "unit_key": "7a1dab199f1861b108405dca96ef4557d03292ca",
+    "translated_text": "自己眼中"
+  },
+  {
+    "unit_key": "797a72302147a9bce24c7af2212b4475f1375afa",
+    "translated_text": "看為正"
+  },
+  {
+    "unit_key": "683eb196bada27e2294f40897506c8e2a3f408b1",
+    "translated_text": "的事"
+  },
+  {
+    "unit_key": "bc285b3a257a3884972ebbfe7b9bf07c14aa0ff4",
+    "translated_text": "被擄"
+  },
+  {
+    "unit_key": "d9893591225f447a520c920b2f968a7b74853399",
+    "translated_text": "聖經歷史互動時間軸，作者：Shawn Handran (2007)"
+  },
+  {
+    "unit_key": "2b82cd0e8bfc106b39a0ff0493c9890114544a9f",
+    "translated_text": "資料來源："
+  },
+  {
+    "unit_key": "8e48475eaeef2dd21f97724be6d81b32b1473350",
+    "translated_text": "聯合王國"
+  },
+  {
+    "unit_key": "156e3364458de1a77367d36bc23f3cfd4ea56040",
+    "translated_text": "但以理"
+  },
+  {
+    "unit_key": "5c233cdaf159a84748c472e88e6957d25bff59c2",
+    "translated_text": "聖經基礎，作者：Shawn Handran (2008)"
+  },
+  {
+    "unit_key": "c0e5a26a04d26bf6284f3a8389b760774502072a",
+    "translated_text": "亞伯拉罕"
+  },
+  {
+    "unit_key": "f85de08d9e24c5ec98f210a98680b29a557dffc0",
+    "translated_text": "以撒"
+  },
+  {
+    "unit_key": "8c256deff7bf939f6e140965129f85a30933f2ee",
+    "translated_text": "雅各"
+  },
+  {
+    "unit_key": "ef45abad70b80dd0f5b0496e83730c66e3567117",
+    "translated_text": "約瑟"
+  },
+  {
+    "unit_key": "66df2669165ee5a9a9fefa64ea3a7ddc146657d6",
+    "translated_text": "舊約遊蹤 (Walk Thru the Bible, 1972-94)"
+  },
+  {
+    "unit_key": "6574f2df8d2abc24df91594ae4520386f3a269f1",
+    "translated_text": "雷歷研讀本聖經 (Moody Press, 1976-78)"
+  },
+  {
+    "unit_key": "a92231fa1fcc6280ded0ec342bb6aff647eb96f1",
+    "translated_text": "摩西"
+  },
+  {
+    "unit_key": "5cce5c294ebfb58719d6a8253be4c0198691b074",
+    "translated_text": "被擄到巴比倫"
+  },
+  {
+    "unit_key": "6d90cbd8af456becc4f261081f7927d550bd9405",
+    "translated_text": "舊約結構與時間軸"
+  },
+  {
+    "unit_key": "b17cc40659d33d1edbfadf75df4a045034227220",
+    "translated_text": "作者：Shawn Handran"
+  },
+  {
+    "unit_key": "5eba19a13b9d603cebf98976058f284434fdea4c",
+    "translated_text": "事件"
+  },
+  {
+    "unit_key": "0cc640a3326dd920d1308875257f3bbf3e67a216",
+    "translated_text": "創造"
+  },
+  {
+    "unit_key": "4ad1db6b18aac7b51f8c49bca5ad3e749009a306",
+    "translated_text": "墮落"
+  },
+  {
+    "unit_key": "2b79e93435beda7cf29c00257dd45c89da3a7ec5",
+    "translated_text": "洪水"
+  },
+  {
+    "unit_key": "c93d4f553cd8ccce5cc5bf4146bd1e775f1d5b9f",
+    "translated_text": "列國"
+  },
+  {
+    "unit_key": "1b8bf46fb8db91724cb7a5018757c3401db51ea3",
+    "translated_text": "聖約"
+  },
+  {
+    "unit_key": "d09d0db8727b94918e056f2aa362225fbe30bbf5",
+    "translated_text": "為奴"
+  },
+  {
+    "unit_key": "ee35e2316a2b58f1fac2f6e11659b2e5e1308c7b",
+    "translated_text": "十災"
+  },
+  {
+    "unit_key": "58c78bf45c731c948fe347c7bcfb892ef1dd47fe",
+    "translated_text": "逾越節"
+  },
+  {
+    "unit_key": "9899ae9b8033df1f175581aeba0b7718f509c3e3",
+    "translated_text": "自由"
+  },
+  {
+    "unit_key": "5d028c27658db9e4be67aecb81573399149038cb",
+    "translated_text": "律法"
+  },
+  {
+    "unit_key": "ce4cf7aafc17ed69a8537a572a1ddd2a5aff3370",
+    "translated_text": "? - 2000bc"
+  }
+]
