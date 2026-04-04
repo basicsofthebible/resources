@@ -4,7 +4,7 @@ This folder contains notebook-based translation workflows for different source f
 
 ## Current folders
 
-### `svg/bst`
+### `svg`
 An SVG translation workflow for extracting translatable text from structured SVG files, packaging the content for LLM translation, and writing the translated result back into SVG-oriented output files.
 
 ### `word`
