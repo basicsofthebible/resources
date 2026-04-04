@@ -1,0 +1,277 @@
+{
+  "metadata": {
+    "stage": "elements_batched",
+    "docxfilename": "custom_word_styles_example.docx",
+    "source_language": "English",
+    "target_language": null,
+    "primary_model_name": null,
+    "evaluation_model_name": null,
+    "fallback_model_name": null,
+    "primary_system_message": null,
+    "evaluation_system_message": null,
+    "fallback_system_message": null
+  },
+  "elements": [
+    {
+      "element_number": 1,
+      "element_type": "paragraph",
+      "word_style": "h1",
+      "text": "Introduction",
+      "element_id": "8633e724fc99",
+      "tokens": 1,
+      "batch_number": 1
+    },
+    {
+      "element_number": 2,
+      "element_type": "paragraph",
+      "word_style": "h2",
+      "text": "Welcome",
+      "element_id": "2e6212d6aad5",
+      "tokens": 1,
+      "batch_number": 1
+    },
+    {
+      "element_number": 3,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "This course is designed for the person that wants to learn what it means to become or be a follower of Jesus. Many people that seek this knowledge realize that the Bible is where they must look, but have been hampered in their quest for one reason or another (e.g. intimidated by the size of the Bible, don’t know where to begin, tried to read the Bible but couldn’t make sense of it, got discouraged, etc.).",
+      "element_id": "4126aaaf767e",
+      "tokens": 89,
+      "batch_number": 1
+    },
+    {
+      "element_number": 4,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "This is a **self-directed study** to assist you in your quest for answers. It is intended to take you rapidly through select books of the Bible to give you a **“big picture”** overview of what it means to be or become a follower of Jesus, and to become familiarized with the Bible——which is the definitive handbook for those who want to follow Jesus. For maximum benefit, plan on spending about **30 minutes** every day for the next few weeks.",
+      "element_id": "24ef2f4ac85e",
+      "tokens": 96,
+      "batch_number": 2
+    },
+    {
+      "element_number": 5,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "The course consists of **two parts**: the first covers the basics and can be completed in two weeks. The second part “digs deeper” into the Bible and takes an additional five weeks of daily reading. This study lays the basic foundation for understanding the Bible and what it means to be a follower of Jesus.",
+      "element_id": "083f0de61472",
+      "tokens": 64,
+      "batch_number": 3
+    },
+    {
+      "element_number": 6,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "After completing this course, you will be **equipped, empowered and excited** to continue your study of the Bible.",
+      "element_id": "00764d996d76",
+      "tokens": 24,
+      "batch_number": 3
+    },
+    {
+      "element_number": 7,
+      "element_type": "paragraph",
+      "word_style": "h2",
+      "text": "The Non-Sequential Reading Approach",
+      "element_id": "44e085da6da8",
+      "tokens": 6,
+      "batch_number": 3
+    },
+    {
+      "element_number": 8,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "Most people that are new to the Bible approach it like any other book that they read——they start at the beginning and read linearly through to the end.",
+      "element_id": "0f0419c8c247",
+      "tokens": 32,
+      "batch_number": 3
+    },
+    {
+      "element_number": 9,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "However, this often leads to frustration because a linear reading approach does not readily facilitate an understanding of the Bible ***as you are reading it***. This course takes a different approach by taking you through books of the Bible in a **non-sequential** order. As such, this facilitates a **greater understanding** of the big picture of the Bible as you are reading it——that is, as you progress through the daily reading schedule, you will understand more and more what the Bible is saying.",
+      "element_id": "224d9cd39e1a",
+      "tokens": 99,
+      "batch_number": 4
+    },
+    {
+      "element_number": 10,
+      "element_type": "paragraph",
+      "word_style": "h2",
+      "text": "Getting Started",
+      "element_id": "f1e071f3c3e5",
+      "tokens": 2,
+      "batch_number": 4
+    },
+    {
+      "element_number": 11,
+      "element_type": "paragraph",
+      "word_style": "quotation",
+      "text": "You will need a **Bible** and a **pencil** or **highlighter**.",
+      "element_id": "fb49158b9536",
+      "tokens": 19,
+      "batch_number": 4
+    },
+    {
+      "element_number": 12,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "It is not necessary to buy a study version of the Bible for this course, but you may find it beneficial in the long term to start this course using a study Bible. If English is your native language, choose a modern Bible translation——NIV, NRSV, NASB, ESV and NKJV are all excellent choices——but avoid paraphrase versions for this study. (Paraphrase versions are excellent for getting a different perspective on a word in the original Greek or Hebrew text, but this type of study should be saved for later in your journey.)",
+      "element_id": "5291a05553d1",
+      "tokens": 114,
+      "batch_number": 5
+    },
+    {
+      "element_number": 13,
+      "element_type": "paragraph",
+      "word_style": "h2",
+      "text": "The Importance of Daily Reading",
+      "element_id": "3ae6137cb043",
+      "tokens": 5,
+      "batch_number": 5
+    },
+    {
+      "element_number": 14,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "Carve out time **each day** to complete the readings.",
+      "element_id": "3366407725e9",
+      "tokens": 13,
+      "batch_number": 5
+    },
+    {
+      "element_number": 15,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "This course requires about **20-40** minutes of focused, **uninterrupted daily reading**. Every day before you begin reading, pray to God asking that the Holy Spirit would give you insight and understanding into what you are about to read.",
+      "element_id": "b2f72534fd2a",
+      "tokens": 50,
+      "batch_number": 6
+    },
+    {
+      "element_number": 16,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "Read the Bible selection **as quickly as you can** without skimming or speed reading (if you have a study Bible, **do not stop** to read the commentary notes, or do so only sparingly). If you notice a verse of interest, highlight it or underline it with a pencil, but do not stop to contemplate at this point in time yet (instructions will be given at the end of the course on how to read the Bible contemplatively and how to effectively use study Bibles and other commentaries).",
+      "element_id": "97f17b1381a8",
+      "tokens": 104,
+      "batch_number": 6
+    },
+    {
+      "element_number": 17,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "It is important to **read every day**——missing a day or two will make it more difficult to remember where you left off and will also make it harder for you to develop a “big picture” view of the Bible.",
+      "element_id": "3948ff790027",
+      "tokens": 46,
+      "batch_number": 7
+    },
+    {
+      "element_number": 18,
+      "element_type": "paragraph",
+      "word_style": "h2",
+      "text": "The Bible at a Glance",
+      "element_id": "63ccfcdcd12e",
+      "tokens": 6,
+      "batch_number": 7
+    },
+    {
+      "element_number": 19,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "The Bible consists of the **Hebrew** and **Greek** Scriptures.",
+      "element_id": "44b22fddd655",
+      "tokens": 15,
+      "batch_number": 7
+    },
+    {
+      "element_number": 20,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "The **Hebrew** Scriptures contain **39 books** written by many different authors over a one thousand year period, between approximately 1400-400 BC. Except for a few sections, it is written entirely in Hebrew. A more detailed description of the Hebrew Scriptures is included later in this study, but for the purposes of this introduction, it is sufficient to summarize that the Hebrew Scriptures as a whole tell of a special and unique task that the Creator God gave to the descendants of a man named Abraham——the **Israelites**. The purpose of this task was that the Israelites were “commissioned” to tell all the other people of the world about the **Creator God**. The Hebrew Scriptures contain many references of the coming of a Messiah (which is the Hebrew word for savior or rescuer).",
+      "element_id": "f61e7943bb8a",
+      "tokens": 162,
+      "batch_number": 8
+    },
+    {
+      "element_number": 21,
+      "element_type": "paragraph",
+      "word_style": "legend",
+      "text": "*Image: Old Testament Structure and Timeline*",
+      "element_id": "538cd647d4cd",
+      "tokens": 9,
+      "batch_number": 9
+    },
+    {
+      "element_number": 22,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "The **Greek** Scriptures contain **27 books**, also written by several different authors over a period of approximately 50 years, around 40-90 AD. The Greek Scriptures show how the Creator God entered into history by becoming a human, fulfilling what was written in the Hebrew Scriptures about the coming **Messiah** (Savior). The Messiah is a descendant of Abraham named Yeshua (Joshua), or as translated in English: Jesus. The Greek word for Messiah is Christos, from which the title **Christ** is derived. Today, we put the name and title together: Jesus (the) Christ.",
+      "element_id": "602232049dbe",
+      "tokens": 124,
+      "batch_number": 9
+    },
+    {
+      "element_number": 23,
+      "element_type": "paragraph",
+      "word_style": "legend",
+      "text": "Image: New Testament Structure and Timeline",
+      "element_id": "386b209ebaa9",
+      "tokens": 7,
+      "batch_number": 9
+    },
+    {
+      "element_number": 24,
+      "element_type": "paragraph",
+      "word_style": "h2",
+      "text": "Navigating the Bible: Chapters and Verses",
+      "element_id": "32f4b1db27a0",
+      "tokens": 9,
+      "batch_number": 9
+    },
+    {
+      "element_number": 25,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "The Bible is **numbered** so that it is easy to navigate and find a particular passage.",
+      "element_id": "f19308307b64",
+      "tokens": 20,
+      "batch_number": 10
+    },
+    {
+      "element_number": 26,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "Most of the books are divided into **chapters** (a few of the smallest books have a single un-numbered chapter), and each chapter in turn is divided into **verses**. A verse is typically one or two sentences. Even those that are unfamiliar with the Bible have probably heard someone quote or refer to **John 3:16**. This means the book of **John, chapter 3, verse 16**. When looking up books in the Bible, refer to the table of contents. In this example, the book of John, or the Gospel of John as it is known by its longer title, is located toward the back of the Bible. Once you locate John, flip through a couple of pages until you reach chapter 3. In most Bibles, the font size of the chapter number is much larger than the rest of the text whereas the verse number is a small superscript number embedded within the text itself. **See examples:**",
+      "element_id": "a1347720f899",
+      "tokens": 195,
+      "batch_number": 11
+    },
+    {
+      "element_number": 27,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "**Genesis 1:1** 11In the beginning God created the heavens and the earth.",
+      "element_id": "351e14930ad4",
+      "tokens": 20,
+      "batch_number": 12
+    },
+    {
+      "element_number": 28,
+      "element_type": "paragraph",
+      "word_style": "body",
+      "text": "**John 3:16** 16For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.",
+      "element_id": "50a608977a0a",
+      "tokens": 37,
+      "batch_number": 12
+    },
+    {
+      "element_number": 29,
+      "element_type": "footnote",
+      "word_style": "footnote",
+      "text": "Generally, you’ll understand the Bible best in your first language, so feel free to use that translation if it is available in your native tongue. If you are bilingual, use the language with which you are most comfortable",
+      "element_id": "93fb683c746a",
+      "tokens": 43,
+      "batch_number": 12
+    }
+  ]
+}
