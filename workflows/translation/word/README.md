@@ -152,3 +152,13 @@ This workflow is best understood as a staged notebook pipeline:
 ## Public repo note
 
 This example is being cleaned up from a larger prototyping process. The notebooks and helper file are being made more modular, metadata-aware, and reusable over time.
+
+## Licensing note
+
+The code in this workflow is part of the repository-wide MIT-licensed codebase unless otherwise noted.
+
+The example Word source materials in this folder are original creative works by Shawn Handran and are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license (CC BY-NC-SA 4.0).
+
+You may share and adapt those example materials for noncommercial purposes with attribution, and any adaptations must be distributed under the same license.
+
+License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
