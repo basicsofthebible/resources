@@ -9,10 +9,12 @@ import time
 import zipfile
 import xml.etree.ElementTree as ET
 from datetime import datetime
+from pathlib import Path
 from statistics import mean, median
 from typing import Any, Dict, List, Mapping, Optional, Tuple, TypedDict, cast
 from collections import Counter, defaultdict
 from docx import Document
+from docx.shared import Inches
 import matplotlib.pyplot as plt
 from matplotlib.figure import Figure
 import pandas as pd
@@ -32,6 +34,11 @@ try:
     from openai import OpenAI  # pyright: ignore[reportMissingImports]
 except ImportError:
     OpenAI = cast(Any, None)
+
+try:
+    from anthropic import Anthropic  # pyright: ignore[reportMissingImports]
+except ImportError:
+    Anthropic = cast(Any, None)
 
 
 WORKFLOW_STAGES = {
@@ -754,6 +761,29 @@ def initialize_openai_client() -> Any:
 
     return OpenAI(api_key=openai_api_key)
 
+
+def initialize_anthropic_client() -> Any:
+    """
+    Instantiate an Anthropic client using ANTHROPIC_API_KEY from the current environment.
+    """
+    dotenv_loaded = load_dotenv(override=True)
+    if not dotenv_loaded:
+        print(
+            "dotenv file not found. Copy your dotenv file containing the API keys "
+            "to the working directory."
+        )
+
+    if Anthropic is None:
+        raise ImportError(
+            "anthropic is not installed. Install the Anthropic SDK to use fallback helpers."
+        )
+
+    anthropic_api_key = os.getenv("ANTHROPIC_API_KEY")
+    if not anthropic_api_key:
+        raise RuntimeError("ANTHROPIC_API_KEY not found in environment")
+
+    return Anthropic(api_key=anthropic_api_key)
+
 def generate_payload(elements, batch_number):
     """
     Build a translation payload for a given batch_number from a canonical `elements` list.
@@ -852,6 +882,20 @@ def _extract_openai_response_text(response: Any) -> str:
     return "\n".join(text_parts).strip()
 
 
+def _extract_anthropic_response_text(response: Any) -> str:
+    """Extract plain text from an Anthropic Messages API result."""
+    text_parts: List[str] = []
+    content = getattr(response, "content", None) or []
+
+    for block in content:
+        if getattr(block, "type", None) == "text":
+            block_text = getattr(block, "text", None)
+            if block_text:
+                text_parts.append(str(block_text))
+
+    return "\n".join(text_parts).strip()
+
+
 def generate_evaluator_payload(elements, batch_number):
     """
     Build an evaluator payload for one batch from the canonical `elements` list.
@@ -869,6 +913,31 @@ def generate_evaluator_payload(elements, batch_number):
             "element_id": el["element_id"],
             "source_text": el["text"],
             "candidate_text": el["primary_translation"],
+        }
+        for el in batch_elements
+    ]
+
+    return {"elements": payload_elements}
+
+
+def generate_fallback_payload(elements, batch_number):
+    """
+    Build a fallback translation payload for one batch from the canonical `elements` list.
+    """
+    batch_elements = [
+        el for el in elements
+        if el.get("batch_number") == batch_number
+        and el.get("evaluator_passed") is False
+        and el.get("evaluator_error") is None
+        and el.get("final") is None
+    ]
+
+    payload_elements = [
+        {
+            "element_id": el["element_id"],
+            "source_text": el["text"],
+            "previous_translation": el.get("primary_translation"),
+            "evaluator_feedback": el.get("evaluator_feedback"),
         }
         for el in batch_elements
     ]
@@ -985,6 +1054,139 @@ def run_evaluation_pass(
         )
 
     return elements
+
+
+def run_fallback_translation_pass(
+    elements,
+    claude_model_name,
+    fallback_system_message,
+    verbose=True,
+    print_status_every_n_batches=20,
+):
+    """
+    Run the fallback translation stage over all distinct batch numbers in the canonical
+    `elements` list.
+    """
+    batch_numbers = sorted({el.get("batch_number") for el in elements})
+    total_batches = len(batch_numbers)
+
+    if total_batches == 0:
+        if verbose:
+            now = datetime.now().strftime("%H:%M:%S")
+            print(f"[{now}] No batches found for fallback translation.")
+        return elements
+
+    anthropic_client = initialize_anthropic_client()
+
+    start_time = time.time()
+    if verbose:
+        now = datetime.now().strftime("%H:%M:%S")
+        print(f"[{now}] Starting fallback translation: {total_batches} batches detected.")
+
+    for idx, batch_number in enumerate(batch_numbers, start=1):
+        payload = generate_fallback_payload(elements, batch_number)
+        eligible_ids = [
+            el["element_id"]
+            for el in elements
+            if el.get("batch_number") == batch_number
+            and el.get("evaluator_passed") is False
+            and el.get("evaluator_error") is None
+            and el.get("final") is None
+        ]
+
+        if not eligible_ids:
+            continue
+
+        try:
+            request_json = json.dumps(payload, ensure_ascii=False)
+            response = anthropic_client.messages.create(
+                model=claude_model_name,
+                system=fallback_system_message,
+                messages=[
+                    {
+                        "role": "user",
+                        "content": request_json,
+                    }
+                ],
+                max_tokens=4096,
+            )
+
+            model_output = _extract_anthropic_response_text(response)
+            if not model_output:
+                raise ValueError("Model returned no text.")
+
+            stripped = _strip_json_code_fences(model_output)
+            if not stripped:
+                raise ValueError("Empty body after stripping code fences.")
+
+            parsed = json.loads(stripped)
+
+        except Exception as e:
+            err_msg = f"Fallback translation error: {e}"
+            for el in elements:
+                if el.get("element_id") in eligible_ids:
+                    el["fallback_error"] = err_msg
+            continue
+
+        returned_items = parsed.get("elements", [])
+        returned_by_id = {item["element_id"]: item for item in returned_items}
+
+        for el in elements:
+            if el.get("element_id") not in eligible_ids:
+                continue
+
+            returned = returned_by_id.get(el["element_id"])
+            if not returned:
+                el["fallback_error"] = "Missing result for this element in model output"
+                continue
+
+            translated_text = returned.get("translated_text")
+            if translated_text is None:
+                el["fallback_error"] = (
+                    "Invalid fallback result: missing 'translated_text'"
+                )
+                continue
+
+            el["fallback_translation"] = translated_text
+            el["fallback_translation_model"] = claude_model_name
+            el["fallback_error"] = None
+
+        if verbose and (idx % print_status_every_n_batches == 0):
+            now = datetime.now().strftime("%H:%M:%S")
+            print(f"[{now}] Progress: {idx}/{total_batches} batches completed.")
+
+    if verbose:
+        elapsed = time.time() - start_time
+        hours = int(elapsed // 3600)
+        minutes = int((elapsed % 3600) // 60)
+        now = datetime.now().strftime("%H:%M:%S")
+        print(
+            f"[{now}] Fallback translation complete: "
+            f"{total_batches}/{total_batches} batches processed "
+            f"in {hours:02d}:{minutes:02d}."
+        )
+
+    return elements
+
+
+def prepare_fallback_elements_for_reevaluation(elements):
+    """
+    Return a shallow-copied elements list prepared for reusing the evaluator on
+    fallback translations without mutating the canonical primary state.
+    """
+    copied_elements = [dict(el) for el in elements]
+
+    for el in copied_elements:
+        if el.get("fallback_translation") is None or el.get("fallback_error") is not None:
+            continue
+
+        el["primary_translation"] = el.get("fallback_translation")
+        el["evaluator_ran"] = None
+        el["evaluator_passed"] = None
+        el["evaluator_feedback"] = None
+        el["evaluator_error"] = None
+
+    return copied_elements
 
 
 def run_primary_translation(
@@ -1251,6 +1453,320 @@ def apply_element_schema(
         f"(overwrite_existing={overwrite_existing})."
     )
     return elements
+
+
+_line_rx_ul = re.compile(r"^\s*[-*]\s+")
+_line_rx_ol = re.compile(r"^\s*\d+\.\s+")
+_line_rx_bq = re.compile(r"^\s*>\s+")
+
+
+def markdown_to_runs(paragraph: Any, text: str) -> None:
+    """Render simple Markdown-style bold/italic spans into DOCX runs."""
+    tokens = re.split(r"(\*\*.*?\*\*|\*.*?\*)", text)
+    for token in tokens:
+        if not token:
+            continue
+        if token.startswith("**") and token.endswith("**"):
+            run = paragraph.add_run(token[2:-2])
+            run.bold = True
+        elif token.startswith("*") and token.endswith("*"):
+            run = paragraph.add_run(token[1:-1])
+            run.italic = True
+        else:
+            paragraph.add_run(token)
+
+
+def pick_style(doc: Document, *names: str, default: str = "Normal") -> str:
+    """Return the first matching style name available in the document."""
+    style_names = {style.name for style in doc.styles}
+    for name in names:
+        if name and name in style_names:
+            return name
+    return default
+
+
+def classify_line(text: str) -> Tuple[str, str]:
+    """Classify one logical line for blockquote/list-aware DOCX reconstruction."""
+    if _line_rx_bq.match(text):
+        return "blockquote", _line_rx_bq.sub("", text, count=1)
+    if _line_rx_ul.match(text):
+        return "ul", _line_rx_ul.sub("", text, count=1)
+    if _line_rx_ol.match(text):
+        return "ol", _line_rx_ol.sub("", text, count=1)
+    return "plain", text
+
+
+def _sanitize_filename_fragment(value: str) -> str:
+    """Convert a filename fragment into a filesystem-friendly token."""
+    collapsed = re.sub(r"\s+", "_", value.strip())
+    sanitized = re.sub(r"[^A-Za-z0-9._-]+", "_", collapsed)
+    return sanitized.strip("._-") or "output"
+
+
+def build_output_path_from_base(
+    docxfilename: str,
+    translated_language: str,
+    text_field: str,
+    output_dir: Optional[str] = None,
+    extension: str = ".docx",
+    timestamp: Optional[str] = None,
+) -> str:
+    """
+    Build an output path from the source DOCX stem, language, artifact label, and timestamp.
+    """
+    ts = timestamp or datetime.now().strftime("%Y%m%d_%H%M%S")
+    base = _sanitize_filename_fragment(Path(docxfilename).stem)
+    language = _sanitize_filename_fragment(translated_language)
+    artifact = _sanitize_filename_fragment(text_field)
+    filename = f"{base}_{language}_{artifact}_{ts}{extension}"
+
+    if output_dir:
+        return str(Path(output_dir) / filename)
+    return str(Path(filename))
+
+
+def resolve_output_text(
+    element: Mapping[str, Any],
+    text_field: str = "final",
+    unresolved_fallback_to_source: bool = True,
+) -> Tuple[str, bool]:
+    """
+    Return (output_text, is_unresolved) for DOCX export using a caller-selected text field.
+    """
+    field_value = element.get(text_field)
+    if field_value is not None:
+        resolved_text = str(field_value)
+        if resolved_text.strip():
+            return resolved_text, False
+
+    if unresolved_fallback_to_source:
+        source_text = str(element.get("text") or "")
+        return source_text, True
+
+    return "", False
+
+
+def _clear_document_body(doc: Document) -> None:
+    """Remove body content while preserving section properties from the template."""
+    body = doc._element.body
+    for child in list(body):
+        if child.tag.endswith("}sectPr"):
+            continue
+        body.remove(child)
+
+
+def _append_reconstructed_paragraphs(
+    doc: Document,
+    raw_text: str,
+    desired_style: Optional[str],
+    *,
+    ul_styles: Tuple[str, ...] = ("List Bullet", "ListParagraph", "List Paragraph"),
+    ol_styles: Tuple[str, ...] = (
+        "w2w_EN.NormListNumbered",
+        "List Number",
+        "List Numbered",
+        "w2w_EN.NormList",
+    ),
+    bq_styles: Tuple[str, ...] = ("Quote", "Intense Quote", "Block Text"),
+    default_style_fallback: str = "Normal",
+) -> None:
+    """Append one or more paragraphs reconstructed from a text block."""
+    if not raw_text.strip():
+        return
+
+    style_names = {style.name for style in doc.styles}
+    para_style_default = (
+        desired_style if desired_style and desired_style in style_names else default_style_fallback
+    )
+    ul_style = pick_style(doc, *ul_styles, default=default_style_fallback)
+    ol_style = pick_style(doc, *ol_styles, default=default_style_fallback)
+    bq_style = pick_style(doc, *bq_styles, default=default_style_fallback)
+
+    for line in raw_text.splitlines() or [""]:
+        kind, clean = classify_line(line)
+
+        if kind == "blockquote":
+            paragraph = doc.add_paragraph(style=bq_style)
+            if bq_style == default_style_fallback:
+                paragraph.paragraph_format.left_indent = Inches(0.25)
+            markdown_to_runs(paragraph, clean)
+            continue
+
+        if kind == "ul":
+            paragraph = doc.add_paragraph(style=ul_style)
+            if ul_style == default_style_fallback:
+                markdown_to_runs(paragraph, "• ")
+            markdown_to_runs(paragraph, clean)
+            continue
+
+        if kind == "ol":
+            paragraph = doc.add_paragraph(style=ol_style)
+            if ol_style == default_style_fallback:
+                markdown_to_runs(paragraph, "1. ")
+            markdown_to_runs(paragraph, clean)
+            continue
+
+        paragraph = doc.add_paragraph(style=para_style_default)
+        markdown_to_runs(paragraph, clean)
+
+
+def export_appended_translation_to_docx(
+    elements: List[Mapping[str, Any]],
+    template_path: str,
+    out_path: str,
+    text_field: str = "final",
+    page_break_before_translation: bool = True,
+    unresolved_fallback_to_source: bool = True,
+    unresolved_prefix: str = "[UNRESOLVED — source text retained] ",
+) -> str:
+    """
+    Open the original DOCX as a base document and append finalized translations to it.
+    """
+    doc = Document(template_path)
+
+    if page_break_before_translation and elements:
+        doc.add_page_break()
+
+    for element in elements:
+        output_text, is_unresolved = resolve_output_text(
+            element,
+            text_field=text_field,
+            unresolved_fallback_to_source=unresolved_fallback_to_source,
+        )
+        if not output_text.strip():
+            continue
+        if is_unresolved:
+            output_text = f"{unresolved_prefix}{output_text}"
+
+        _append_reconstructed_paragraphs(
+            doc,
+            output_text,
+            cast(Optional[str], element.get("word_style")),
+        )
+
+    doc.save(out_path)
+    return out_path
+
+
+def export_interlinear_translation_to_docx(
+    elements: List[Mapping[str, Any]],
+    template_path: str,
+    out_path: str,
+    text_field: str = "final",
+    unresolved_fallback_to_source: bool = True,
+    unresolved_prefix: str = "[UNRESOLVED — source text retained] ",
+) -> str:
+    """
+    Build an interlinear DOCX using the template for style lookup.
+    """
+    doc = Document(template_path)
+    _clear_document_body(doc)
+
+    for element in elements:
+        original_text = str(element.get("text") or "")
+        output_text, is_unresolved = resolve_output_text(
+            element,
+            text_field=text_field,
+            unresolved_fallback_to_source=unresolved_fallback_to_source,
+        )
+        translated_text = f"{unresolved_prefix}{output_text}" if is_unresolved else output_text
+        desired_style = cast(Optional[str], element.get("word_style"))
+
+        if original_text.strip():
+            _append_reconstructed_paragraphs(doc, original_text, desired_style)
+        if translated_text.strip():
+            _append_reconstructed_paragraphs(doc, translated_text, desired_style)
+
+    doc.save(out_path)
+    return out_path
+
+
+def build_finalization_dataframes(
+    elements: List[Mapping[str, Any]],
+) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    """
+    Build full and reduced finalization DataFrames from workflow elements.
+    """
+    df_full = pd.DataFrame(elements)
+
+    reduced_rows: List[Dict[str, Any]] = []
+    for element in elements:
+        _, is_unresolved = resolve_output_text(element, text_field="final")
+        reduced_rows.append(
+            {
+                "element_id": element.get("element_id"),
+                "element_number": element.get("element_number"),
+                "batch_number": element.get("batch_number"),
+                "text": element.get("text"),
+                "final": element.get("final"),
+                "final_model": element.get("final_model"),
+                "is_unresolved": is_unresolved,
+            }
+        )
+
+    df_reduced = pd.DataFrame(
+        reduced_rows,
+        columns=[
+            "element_id",
+            "element_number",
+            "batch_number",
+            "text",
+            "final",
+            "final_model",
+            "is_unresolved",
+        ],
+    )
+
+    return df_full, df_reduced
+
+
+def export_finalization_tables(
+    df_full: pd.DataFrame,
+    df_reduced: pd.DataFrame,
+    output_dir: str,
+    docxfilename: str,
+    target_language: str,
+) -> Dict[str, str]:
+    """
+    Export full/reduced finalization tables to CSV/XLSX with timestamped filenames.
+    """
+    os.makedirs(output_dir, exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    full_csv_path = build_output_path_from_base(
+        docxfilename,
+        target_language,
+        "full_schema",
+        output_dir=output_dir,
+        extension=".csv",
+        timestamp=timestamp,
+    )
+    reduced_csv_path = build_output_path_from_base(
+        docxfilename,
+        target_language,
+        "reduced",
+        output_dir=output_dir,
+        extension=".csv",
+        timestamp=timestamp,
+    )
+    reduced_xlsx_path = build_output_path_from_base(
+        docxfilename,
+        target_language,
+        "reduced",
+        output_dir=output_dir,
+        extension=".xlsx",
+        timestamp=timestamp,
+    )
+
+    df_full.to_csv(full_csv_path, index=False, encoding="utf-8-sig")
+    df_reduced.to_csv(reduced_csv_path, index=False, encoding="utf-8-sig")
+    df_reduced.to_excel(reduced_xlsx_path, index=False)
+
+    return {
+        "full_csv": full_csv_path,
+        "reduced_csv": reduced_csv_path,
+        "reduced_xlsx": reduced_xlsx_path,
+    }
 
 
 def save_elements_checkpoint(
