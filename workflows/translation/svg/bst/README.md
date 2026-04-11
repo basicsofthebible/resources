@@ -67,3 +67,14 @@ bst/
 ├── svg_source_files/
 ├── json_files/
 └── svg_output_files/
+```
+
+## Licensing note
+
+The code in this workflow is part of the repository-wide MIT-licensed codebase unless otherwise noted.
+
+The example SVG source files and related creative materials in this folder are original creative works by Shawn Handran and are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license (CC BY-NC-SA 4.0).
+
+You may share and adapt those example materials for noncommercial purposes with attribution, and any adaptations must be distributed under the same license.
+
+License details: https://creativecommons.org/licenses/by-nc-sa/4.0/
