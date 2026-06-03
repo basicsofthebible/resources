@@ -1,0 +1,17 @@
+Title,Category,Section,Kayser,Range,Whole chapter,Chapter start,Verse start,Chapter end,Verse end,RGB,HTML Color
+John's Vision of Christ,Prologue,Prologue,Prologue,Rev 1,1,1,1,1,20,"0.85, 0.85, 0.85",LightGray
+Letters to the Seven Churches,Sevens,Seven Churches,Seven Churches,Rev 2-3,1,2,1,3,22,"0.06, 0.62, 0.84",Cyan
+Vision of the Throne Room,Interlude,The Throne,Seven Seals,Rev 4,1,4,1,4,11,"0.8, 0.6, 0.0",GoldenRod
+The Seven Seals,Sevens,The scroll and the first six seals,Seven Seals,Rev 5-6,1,5,1,6,17,"0.0, 0.0, 0.0",Black
+Vision of Great Multitude,Interlude,"The five angels, the 144,000, the Great Multitude",Seven Seals,Rev 7,1,7,1,7,17,"0.0, 0.0, 0.0",Black
+The Seventh Seal,Fulfillment,Silence,Seven Seals,Rev 8:1-5,0,8,1,8,5,"0.4, 0.2, 0.6",RebeccaPurple
+The Seven Trumpets,Sevens,The first six trumpets,Seven Trumpets,Rev 8:6-9:21,0,8,6,9,21,"0.0, 0.0, 0.8039",MediumBlue
+The Second Woe,Interlude,"The angel and the little scroll, the two witnesses",Seven Trumpets,Rev 10-11:14,0,10,1,11,14,"0.0, 0.0, 0.8039",MediumBlue
+The Seventh Trumpet,Fulfillment,Glory,Seven Trumpets,Rev 11:15-19,0,11,15,11,19,"0.4, 0.2, 0.6",RebeccaPurple
+Center of the Chiasm,Interlude,The Cosmic War,Seven Visions,Rev 12-15,1,12,1,15,8,"0.0, 0.502, 0.0",Green
+The Seven Bowls,Sevens,The first six bowls,Seven Bowls of Wrath Containing the Seven Plagues,Rev 16:1-14,0,16,1,16,14,"1.0, 0.0, 0.0",Red
+Keep Watch!,Interlude,Stay alert and keep watch,Seven Bowls of Wrath Containing the Seven Plagues,Rev 16:15-16,0,16,15,16,16,"1.0, 0.0, 0.0",Red
+The Seventh Bowl,Fulfillment,It is done!,Seven Bowls of Wrath Containing the Seven Plagues,Rev 16:17-21,0,16,17,16,21,"0.4, 0.2, 0.6",RebeccaPurple
+Unfaithfulness vs. Fidelity,Interlude,"The Prostitute and Beast, Fall of Babylon, Wedding of the Lamb ",Seven Condemnations of Babylon,Rev 17-19:10,0,17,1,19,10,"0.47, 0.53, 0.60",LightSlateGray
+Victory and Judgment,Interlude,"The White Rider, the Millennium, Defeat of Satan, the Final Judgment",Seven visions of the victory of Christ’s Kingdom,Rev 19:11-20:15,0,19,11,20,15,"0.47, 0.53, 0.60",LightSlateGray
+He Has Made All Things New,Fulfillment,New Heaven and New Earth,"Seven visions of the victory of Christ’s Kingdom, Epilogue",Rev 21-22,1,21,1,22,21,"0.4, 0.2, 0.6",RebeccaPurple
