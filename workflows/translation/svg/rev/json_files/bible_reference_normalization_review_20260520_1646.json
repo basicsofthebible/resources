@@ -1,0 +1,1138 @@
+[
+  {
+    "source_file": "SevenChurchesOfRevelation.svg",
+    "source_text": "cf. Jer 2:2, Gen 2:9, Rev 22:2",
+    "old_svg_text": "cf. Jer 2:2, Gen 2:9, Rev 22:2",
+    "new_svg_text": "cf. Jer 2:2, Gen 2:9, Ap 22:2",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 22:2",
+        "after_match": "Ap 22:2"
+      }
+    ]
+  },
+  {
+    "source_file": "SevenChurchesOfRevelation.svg",
+    "source_text": "cf. Mal 3:3, Jn 9:6-11, Rev 16:15, 20:4",
+    "old_svg_text": "cf. Mal 3:3, Jn 9:6-11, Rev 16:15, 20:4",
+    "new_svg_text": "cf. Mal 3:3, Jn 9:6-11, Ap 16:15, 20:4",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 16:15,",
+        "after_match": "Ap 16:15,"
+      }
+    ]
+  },
+  {
+    "source_file": "SevenChurchesOfRevelation.svg",
+    "source_text": "cf. Rev 14:12, Num 22-24, Jn 6:48-50",
+    "old_svg_text": "cf. Rev 14:12, Num 22-24, Jn 6:48-50 ",
+    "new_svg_text": "cf. Ap 14:12, Num 22-24, Jn 6:48-50 ",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 14:12,",
+        "after_match": "Ap 14:12,"
+      }
+    ]
+  },
+  {
+    "source_file": "SevenChurchesOfRevelation.svg",
+    "source_text": "cf. Rev 14:1 22:4, Eze 48:35, Rev 21:2, 10",
+    "old_svg_text": "cf. Rev 14:1 22:4, Eze 48:35, Rev 21:2, 10",
+    "new_svg_text": "cf. Ap 14:1 22:4, Ez 48:35, Ap 21:2, 10",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 14:1",
+        "after_match": "Ap 14:1"
+      },
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 48:35,",
+        "after_match": "Ez 48:35,"
+      },
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 21:2,",
+        "after_match": "Ap 21:2,"
+      }
+    ]
+  },
+  {
+    "source_file": "SevenChurchesOfRevelation.svg",
+    "source_text": "cf. Rev 13:8, 17:8, 19:8, 20:12, 20:15, 21:27",
+    "old_svg_text": "cf. Rev 13:8, 17:8, 19:8, 20:12, 20:15, 21:27",
+    "new_svg_text": "cf. Ap 13:8, 17:8, 19:8, 20:12, 20:15, 21:27",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 13:8,",
+        "after_match": "Ap 13:8,"
+      }
+    ]
+  },
+  {
+    "source_file": "SevenChurchesOfRevelation.svg",
+    "source_text": "cf. Dan 1:12, Rev 17:14, 20:6,14, 21:8",
+    "old_svg_text": "cf. Dan 1:12, Rev 17:14, 20:6,14, 21:8 ",
+    "new_svg_text": "cf. Dan 1:12, Ap 17:14, 20:6,14, 21:8 ",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 17:14,",
+        "after_match": "Ap 17:14,"
+      }
+    ]
+  },
+  {
+    "source_file": "SevenChurchesOfRevelation.svg",
+    "source_text": "cf. 1 Ki 16:31, 21:25, 2 Ki 9:7, Dan 7:27",
+    "old_svg_text": "cf. 1 Ki 16:31, 21:25, 2 Ki 9:7, Dan 7:27",
+    "new_svg_text": "cf. 1 R 16:31, 21:25, 2 R 9:7, Dan 7:27",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "1 Ki",
+        "replacement_alias": "1 R",
+        "before_match": "1 Ki 16:31,",
+        "after_match": "1 R 16:31,"
+      },
+      {
+        "source_alias": "2 Ki",
+        "replacement_alias": "2 R",
+        "before_match": "2 Ki 9:7,",
+        "after_match": "2 R 9:7,"
+      }
+    ]
+  },
+  {
+    "source_file": "SevenChurchesOfRevelation.svg",
+    "source_text": "cf. 2 Ki 23:29, Zech 12:11, Rev 16:15-16",
+    "old_svg_text": "cf. 2 Ki 23:29, Zech 12:11, Rev 16:15-16",
+    "new_svg_text": "cf. 2 R 23:29, Zech 12:11, Ap 16:15-16",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "2 Ki",
+        "replacement_alias": "2 R",
+        "before_match": "2 Ki 23:29,",
+        "after_match": "2 R 23:29,"
+      },
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 16:15-16",
+        "after_match": "Ap 16:15-16"
+      }
+    ]
+  },
+  {
+    "source_file": "SevenChurchesOfRevelation.svg",
+    "source_text": "cf. Is 2,4,24,29,34,40,49,51-52,59-62,66;Jer 30-31, 50-51; Eze 8-9; Dan 9;Joel 2-3; Am 1,6; Ob 1; Mic 1,4; Zep 3; Zech 1,2,8-9; Rev 14.1",
+    "old_svg_text": "cf. Is 2,4,24,29,34,40,49,51-52,59-62,66;Jer 30-31, 50-51; Eze 8-9; Dan 9;Joel 2-3; Am 1,6; Ob 1; Mic 1,4; Zep 3; Zech 1,2,8-9; Rev 14.1",
+    "new_svg_text": "cf. Is 2,4,24,29,34,40,49,51-52,59-62,66;Jer 30-31, 50-51; Ez 8-9; Dan 9;Joel 2-3; Am 1,6; Ob 1; Mic 1,4; Zep 3; Zech 1,2,8-9; Ap 14.1",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 8-9;",
+        "after_match": "Ez 8-9;"
+      },
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 14.",
+        "after_match": "Ap 14."
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Ex 7:17-21,Is 49:26,Rev 8:8-10,11:6",
+    "old_svg_text": "cf. Ex 7:17-21,Is 49:26,Rev 8:8-10,11:6",
+    "new_svg_text": "cf. Ex 7:17-21,Is 49:26,Ap 8:8-10,11:6",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 8:8-10,",
+        "after_match": "Ap 8:8-10,"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Rev 14:18",
+    "old_svg_text": "cf. Rev 14:18",
+    "new_svg_text": "cf. Ap 14:18",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 14:18",
+        "after_match": "Ap 14:18"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Rev 9:14,13:1",
+    "old_svg_text": "cf. Rev 9:14,13:1",
+    "new_svg_text": "cf. Ap 9:14,13:1",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 9:14,",
+        "after_match": "Ap 9:14,"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 16:3",
+    "old_svg_text": "Rev 16:3",
+    "new_svg_text": "Ap 16:3",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 16:3",
+        "after_match": "Ap 16:3"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 16:4-7",
+    "old_svg_text": "Rev 16:4-7",
+    "new_svg_text": "Ap 16:4-7",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 16:4-7",
+        "after_match": "Ap 16:4-7"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 16:10-11",
+    "old_svg_text": "Rev 16:10-11",
+    "new_svg_text": "Ap 16:10-11",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 16:10-11",
+        "after_match": "Ap 16:10-11"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Joe 2,Rev 6:12",
+    "old_svg_text": "cf. Joe 2,Rev 6:12",
+    "new_svg_text": "cf. Joe 2,Ap 6:12",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 6:12",
+        "after_match": "Ap 6:12"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 16:2",
+    "old_svg_text": "Rev 16:2",
+    "new_svg_text": "Ap 16:2",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 16:2",
+        "after_match": "Ap 16:2"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 16:8-9",
+    "old_svg_text": "Rev 16:8-9",
+    "new_svg_text": "Ap 16:8-9",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 16:8-9",
+        "after_match": "Ap 16:8-9"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 16:12-14",
+    "old_svg_text": "Rev 16:12-14",
+    "new_svg_text": "Ap 16:12-14",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 16:12-14",
+        "after_match": "Ap 16:12-14"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 6:3-4",
+    "old_svg_text": "Rev 6:3-4",
+    "new_svg_text": "Ap 6:3-4",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 6:3-4",
+        "after_match": "Ap 6:3-4"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 6:5-6",
+    "old_svg_text": "Rev 6:5-6",
+    "new_svg_text": "Ap 6:5-6",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 6:5-6",
+        "after_match": "Ap 6:5-6"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 6:7-8",
+    "old_svg_text": "Rev 6:7-8",
+    "new_svg_text": "Ap 6:7-8",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 6:7-8",
+        "after_match": "Ap 6:7-8"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 6:9-11",
+    "old_svg_text": "Rev 6:9-11",
+    "new_svg_text": "Ap 6:9-11",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 6:9-11",
+        "after_match": "Ap 6:9-11"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 6:12-17",
+    "old_svg_text": "Rev 6:12-17",
+    "new_svg_text": "Ap 6:12-17",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 6:12-17",
+        "after_match": "Ap 6:12-17"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Is 2,24, Eze 4-5, Jer 15-16 & 30, Dan 8:26 & 12:4,Joe 2-3, Zep 1, Zec 1 & 6:1-8, Ps 76 & 130",
+    "old_svg_text": "cf. Is 2,24, Eze 4-5,  Jer 15-16 & 30, Dan 8:26 & 12:4,Joe 2-3, Zep 1, Zec 1 & 6:1-8, Ps 76 & 130",
+    "new_svg_text": "cf. Is 2,24, Ez 4-5,  Jer 15-16 & 30, Dan 8:26 & 12:4,Joe 2-3, Zep 1, Zec 1 & 6:1-8, Sal 76 & 130",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 4-5,",
+        "after_match": "Ez 4-5,"
+      },
+      {
+        "source_alias": "Ps",
+        "replacement_alias": "Sal",
+        "before_match": "Ps 76",
+        "after_match": "Sal 76"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Ps 45,Mt 24:3-5",
+    "old_svg_text": "cf. Ps 45,Mt 24:3-5",
+    "new_svg_text": "cf. Sal 45,Mt 24:3-5",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Ps",
+        "replacement_alias": "Sal",
+        "before_match": "Ps 45,",
+        "after_match": "Sal 45,"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Eze 14:19-21,Mt 24:7-8",
+    "old_svg_text": "cf. Eze 14:19-21,Mt 24:7-8",
+    "new_svg_text": "cf. Ez 14:19-21,Mt 24:7-8",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 14:19-21,",
+        "after_match": "Ez 14:19-21,"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 6:1-2",
+    "old_svg_text": "Rev 6:1-2",
+    "new_svg_text": "Ap 6:1-2",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 6:1-2",
+        "after_match": "Ap 6:1-2"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Is 13:10,24:23,Eze 32:7",
+    "old_svg_text": "cf. Is 13:10,24:23,Eze 32:7",
+    "new_svg_text": "cf. Is 13:10,24:23,Ez 32:7",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 32:7",
+        "after_match": "Ez 32:7"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 8:7",
+    "old_svg_text": "Rev 8:7",
+    "new_svg_text": "Ap 8:7",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 8:7",
+        "after_match": "Ap 8:7"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 8:8-9",
+    "old_svg_text": "Rev 8:8-9",
+    "new_svg_text": "Ap 8:8-9",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 8:8-9",
+        "after_match": "Ap 8:8-9"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 8:10-11",
+    "old_svg_text": "Rev 8:10-11",
+    "new_svg_text": "Ap 8:10-11",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 8:10-11",
+        "after_match": "Ap 8:10-11"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 9:1-12",
+    "old_svg_text": "Rev 9:1-12",
+    "new_svg_text": "Ap 9:1-12",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 9:1-12",
+        "after_match": "Ap 9:1-12"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 9:13-21",
+    "old_svg_text": "Rev 9:13-21",
+    "new_svg_text": "Ap 9:13-21",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 9:13-21",
+        "after_match": "Ap 9:13-21"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Ps 18:13,Eze 38:22,Rev 9:15,18",
+    "old_svg_text": "cf. Ps 18:13,Eze 38:22,Rev 9:15,18",
+    "new_svg_text": "cf. Sal 18:13,Ez 38:22,Ap 9:15,18",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Ps",
+        "replacement_alias": "Sal",
+        "before_match": "Ps 18:13,",
+        "after_match": "Sal 18:13,"
+      },
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 38:22,",
+        "after_match": "Ez 38:22,"
+      },
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 9:15,",
+        "after_match": "Ap 9:15,"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Jer 51:25,Rev 16:3",
+    "old_svg_text": "cf. Jer 51:25,Rev 16:3",
+    "new_svg_text": "cf. Jer 51:25,Ap 16:3",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 16:3",
+        "after_match": "Ap 16:3"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Rev 7:1,16:12",
+    "old_svg_text": "cf. Rev 7:1,16:12",
+    "new_svg_text": "cf. Ap 7:1,16:12",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 7:1,",
+        "after_match": "Ap 7:1,"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 8:13",
+    "old_svg_text": "Rev 8:13",
+    "new_svg_text": "Ap 8:13",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 8:13",
+        "after_match": "Ap 8:13"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Eze 2:10",
+    "old_svg_text": "cf. Eze 2:10",
+    "new_svg_text": "cf. Ez 2:10",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 2:10",
+        "after_match": "Ez 2:10"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 8:12",
+    "old_svg_text": "Rev 8:12",
+    "new_svg_text": "Ap 8:12",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 8:12",
+        "after_match": "Ap 8:12"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Ex 7-12, Lev 25:8-9, Ps 47:5, Is 18:3, Is 27:13, Jer 51,Eze 7:14, Eze 33:3-6, Joe 2, Am 8, Zec 9:14 & 13:8-9",
+    "old_svg_text": "cf. Ex 7-12, Lev 25:8-9, Ps 47:5, Is 18:3, Is 27:13, Jer 51,Eze 7:14, Eze 33:3-6, Joe 2, Am 8, Zec 9:14 & 13:8-9",
+    "new_svg_text": "cf. Ex 7-12, Lev 25:8-9, Sal 47:5, Is 18:3, Is 27:13, Jer 51,Ez 7:14, Ez 33:3-6, Joe 2, Am 8, Zec 9:14 & 13:8-9",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Ps",
+        "replacement_alias": "Sal",
+        "before_match": "Ps 47:5,",
+        "after_match": "Sal 47:5,"
+      },
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 7:14,",
+        "after_match": "Ez 7:14,"
+      },
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 33:3-6,",
+        "after_match": "Ez 33:3-6,"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 20:1-6",
+    "old_svg_text": "Rev 20:1-6",
+    "new_svg_text": "Ap 20:1-6",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 20:1-6",
+        "after_match": "Ap 20:1-6"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Is 21,47,Jer 50-51,Eze 26-28,Dan 7,Zep 2",
+    "old_svg_text": "cf. Is 21,47,Jer 50-51,Eze 26-28,Dan 7,Zep 2",
+    "new_svg_text": "cf. Is 21,47,Jer 50-51,Ez 26-28,Dan 7,Zep 2",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 26-28,",
+        "after_match": "Ez 26-28,"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 19:1-5",
+    "old_svg_text": "Rev 19:1-5",
+    "new_svg_text": "Ap 19:1-5",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 19:1-5",
+        "after_match": "Ap 19:1-5"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 19:11-21",
+    "old_svg_text": "Rev 19:11-21",
+    "new_svg_text": "Ap 19:11-21",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 19:11-21",
+        "after_match": "Ap 19:11-21"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Ps 137:8,Is 48:20",
+    "old_svg_text": "cf. Ps 137:8,Is 48:20",
+    "new_svg_text": "cf. Sal 137:8,Is 48:20",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Ps",
+        "replacement_alias": "Sal",
+        "before_match": "Ps 137:8,",
+        "after_match": "Sal 137:8,"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Rev 4,7,11,16",
+    "old_svg_text": "cf. Rev 4,7,11,16",
+    "new_svg_text": "cf. Ap 4,7,11,16",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 4,",
+        "after_match": "Ap 4,"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Rev 21:2,9,22:17",
+    "old_svg_text": "cf. Rev 21:2,9,22:17",
+    "new_svg_text": "cf. Ap 21:2,9,22:17",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 21:2,",
+        "after_match": "Ap 21:2,"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Rev 6:2,Is 11:4,49:2,Rev 13",
+    "old_svg_text": "cf. Rev 6:2,Is 11:4,49:2,Rev 13 ",
+    "new_svg_text": "cf. Ap 6:2,Is 11:4,49:2,Ap 13 ",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 6:2,",
+        "after_match": "Ap 6:2,"
+      },
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 13",
+        "after_match": "Ap 13"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Is 24:21-25,Eze 38-39",
+    "old_svg_text": "cf. Is 24:21-25,Eze 38-39",
+    "new_svg_text": "cf. Is 24:21-25,Ez 38-39",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 38-39",
+        "after_match": "Ez 38-39"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 17",
+    "old_svg_text": "Rev 17",
+    "new_svg_text": "Ap 17",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 17",
+        "after_match": "Ap 17"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 18",
+    "old_svg_text": "Rev 18",
+    "new_svg_text": "Ap 18",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 18",
+        "after_match": "Ap 18"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 19:6-10",
+    "old_svg_text": "Rev 19:6-10",
+    "new_svg_text": "Ap 19:6-10",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 19:6-10",
+        "after_match": "Ap 19:6-10"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 14:1-5",
+    "old_svg_text": "Rev 14:1-5",
+    "new_svg_text": "Ap 14:1-5",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 14:1-5",
+        "after_match": "Ap 14:1-5"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 14:6-13*",
+    "old_svg_text": "Rev 14:6-13*",
+    "new_svg_text": "Ap 14:6-13*",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 14:6-13*",
+        "after_match": "Ap 14:6-13*"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 14:14-20",
+    "old_svg_text": "Rev 14:14-20",
+    "new_svg_text": "Ap 14:14-20",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 14:14-20",
+        "after_match": "Ap 14:14-20"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Rev 7",
+    "old_svg_text": "cf. Rev 7",
+    "new_svg_text": "cf. Ap 7",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 7",
+        "after_match": "Ap 7"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Ps 86:9, Jer 10:7",
+    "old_svg_text": "cf. Ps 86:9, Jer 10:7",
+    "new_svg_text": "cf. Sal 86:9, Jer 10:7",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Ps",
+        "replacement_alias": "Sal",
+        "before_match": "Ps 86:9,",
+        "after_match": "Sal 86:9,"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 12:1-6",
+    "old_svg_text": "Rev 12:1-6",
+    "new_svg_text": "Ap 12:1-6",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 12:1-6",
+        "after_match": "Ap 12:1-6"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 12:7-17",
+    "old_svg_text": "Rev 12:7-17",
+    "new_svg_text": "Ap 12:7-17",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 12:7-17",
+        "after_match": "Ap 12:7-17"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "Rev 13*",
+    "old_svg_text": "Rev 13*",
+    "new_svg_text": "Ap 13*",
+    "bible_reference_category": "reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Rev",
+        "replacement_alias": "Ap",
+        "before_match": "Rev 13*",
+        "after_match": "Ap 13*"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Isa 33; Jer 1Eze 1-3,7-12,14,37,40Dan 7,12,Zec 2,4,14, Ps 79",
+    "old_svg_text": "cf. Isa 33; Jer 1Eze 1-3,7-12,14,37,40Dan 7,12,Zec 2,4,14, Ps 79",
+    "new_svg_text": "cf. Isa 33; Jer 1Ez 1-3,7-12,14,37,40Dan 7,12,Zec 2,4,14, Sal 79",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 1-3,",
+        "after_match": "Ez 1-3,"
+      },
+      {
+        "source_alias": "Ps",
+        "replacement_alias": "Sal",
+        "before_match": "Ps 79",
+        "after_match": "Sal 79"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Dan 7.2, Eze 9:4",
+    "old_svg_text": "cf. Dan 7.2, Eze 9:4",
+    "new_svg_text": "cf. Dan 7.2, Ez 9:4",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 9:4",
+        "after_match": "Ez 9:4"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. Eze 48",
+    "old_svg_text": "cf. Eze 48",
+    "new_svg_text": "cf. Ez 48",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 48",
+        "after_match": "Ez 48"
+      }
+    ]
+  },
+  {
+    "source_file": "StructureOfRevelation.svg",
+    "source_text": "cf. 1 Ki 22,Is 6,Jer 17:12,Eze 1,3:12-14,Eze 10,Dan 7,Gen 9:13-16,Ex 24:10,Eze 28:13,Est 8:15,Ps 21:3,Ex 27:23,1 Ch 4:20,Zec 4,Ge 49:9,Deu 28:49,1 Ch 29:11-16",
+    "old_svg_text": "cf. 1 Ki 22,Is 6,Jer 17:12,Eze 1,3:12-14,Eze 10,Dan 7,Gen 9:13-16,Ex 24:10,Eze 28:13,Est 8:15,Ps 21:3,Ex 27:23,1 Ch 4:20,Zec 4,Ge 49:9,Deu 28:49,1 Ch 29:11-16",
+    "new_svg_text": "cf. 1 R 22,Is 6,Jer 17:12,Ez 1,3:12-14,Ez 10,Dan 7,Gen 9:13-16,Ex 24:10,Ez 28:13,Est 8:15,Sal 21:3,Ex 27:23,1 Ch 4:20,Zec 4,Ge 49:9,Deu 28:49,1 Ch 29:11-16",
+    "bible_reference_category": "cross_reference_only",
+    "translation_action": "preserve",
+    "replacement_details": [
+      {
+        "source_alias": "1 Ki",
+        "replacement_alias": "1 R",
+        "before_match": "1 Ki 22,",
+        "after_match": "1 R 22,"
+      },
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 1,",
+        "after_match": "Ez 1,"
+      },
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 10,",
+        "after_match": "Ez 10,"
+      },
+      {
+        "source_alias": "Eze",
+        "replacement_alias": "Ez",
+        "before_match": "Eze 28:13,",
+        "after_match": "Ez 28:13,"
+      },
+      {
+        "source_alias": "Ps",
+        "replacement_alias": "Sal",
+        "before_match": "Ps 21:3,",
+        "after_match": "Sal 21:3,"
+      }
+    ]
+  }
+]
