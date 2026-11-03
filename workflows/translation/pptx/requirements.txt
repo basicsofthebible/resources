@@ -1,0 +1,7 @@
+# Core offline extraction/reconstruction runtime; never installed by the notebook.
+python-pptx>=1.0.2,<2
+# python-pptx declares Pillow, lxml, XlsxWriter and typing-extensions dependencies.
+# Use an existing Jupyter/ipykernel environment to open the notebook.
+# Enabled live stages additionally require google-genai, openai and/or anthropic
+# plus their explicit credential/execution gates. They are optional offline.
+# dotenv, pandas, Word and SVG tooling are not required by this workflow.
