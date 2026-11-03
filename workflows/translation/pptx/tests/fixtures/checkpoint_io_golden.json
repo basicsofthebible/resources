@@ -1,0 +1,78 @@
+{
+  "captured_from": "primary_translation.py before Stage 5 extraction",
+  "reference_source_sha256": "0ba79208233e5f4cd73dbcfa4d4fdbacdbe77e50abe168631c81fa1e551b5f4d",
+  "vectors": [
+    {
+      "name": "empty",
+      "state": {},
+      "digest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "checkpoint_text": "{\n  \"integrity\": \"44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a\"\n}"
+    },
+    {
+      "name": "unicode",
+      "state": {
+        "z": [
+          "漢字",
+          "é",
+          "😀",
+          "a\nb",
+          "\"quoted\""
+        ],
+        "a": {
+          "right_to_left": "مرحبا",
+          "tab": "x\ty"
+        }
+      },
+      "digest": "51802c4dbb3cc8637fa8ebc6790a259951755dedf1e1f90d6ee87d9d5615d7bb",
+      "checkpoint_text": "{\n  \"z\": [\n    \"漢字\",\n    \"é\",\n    \"😀\",\n    \"a\\nb\",\n    \"\\\"quoted\\\"\"\n  ],\n  \"a\": {\n    \"right_to_left\": \"مرحبا\",\n    \"tab\": \"x\\ty\"\n  },\n  \"integrity\": \"51802c4dbb3cc8637fa8ebc6790a259951755dedf1e1f90d6ee87d9d5615d7bb\"\n}"
+    },
+    {
+      "name": "numbers",
+      "state": {
+        "float": 1.0,
+        "negative_zero": -0.0,
+        "integer": 12345678901234567890,
+        "truth": true,
+        "null": null
+      },
+      "digest": "a20504b9e944925d8916ace8e39529baafbe456f13538081c97f9fdeb5f31319",
+      "checkpoint_text": "{\n  \"float\": 1.0,\n  \"negative_zero\": -0.0,\n  \"integer\": 12345678901234567890,\n  \"truth\": true,\n  \"null\": null,\n  \"integrity\": \"a20504b9e944925d8916ace8e39529baafbe456f13538081c97f9fdeb5f31319\"\n}"
+    },
+    {
+      "name": "key_order_a",
+      "state": {
+        "z": 1,
+        "a": 2
+      },
+      "digest": "c2985c5ba6f7d2a55e768f92490ca09388e95bc4cccb9fdf11b15f4d42f93e73",
+      "checkpoint_text": "{\n  \"z\": 1,\n  \"a\": 2,\n  \"integrity\": \"c2985c5ba6f7d2a55e768f92490ca09388e95bc4cccb9fdf11b15f4d42f93e73\"\n}"
+    },
+    {
+      "name": "key_order_b",
+      "state": {
+        "a": 2,
+        "z": 1
+      },
+      "digest": "c2985c5ba6f7d2a55e768f92490ca09388e95bc4cccb9fdf11b15f4d42f93e73",
+      "checkpoint_text": "{\n  \"a\": 2,\n  \"z\": 1,\n  \"integrity\": \"c2985c5ba6f7d2a55e768f92490ca09388e95bc4cccb9fdf11b15f4d42f93e73\"\n}"
+    },
+    {
+      "name": "existing_integrity",
+      "state": {
+        "integrity": "caller-supplied",
+        "data": [
+          1,
+          false,
+          "ñ"
+        ]
+      },
+      "digest": "3b1f7054dd8f4784bbb7401af13334bef703abfba7da32510edfac849597c5b8",
+      "checkpoint_text": "{\n  \"integrity\": \"3b1f7054dd8f4784bbb7401af13334bef703abfba7da32510edfac849597c5b8\",\n  \"data\": [\n    1,\n    false,\n    \"ñ\"\n  ]\n}"
+    }
+  ],
+  "binary_file": {
+    "hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeffe6bca2e5ad970a",
+    "sha256": "e8375accc9dbfe2b130ec67107498d0c3277616c348b078152e01683ba334ea2"
+  },
+  "utc_example": "2026-10-28T12:34:56.789012+00:00"
+}
