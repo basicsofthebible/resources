@@ -59,7 +59,7 @@ Explore connections between Bible books, people, events, and categories. Arrows 
 
 Explore the interactive network and select nodes to inspect their connections.
 
-[Open the PyVis graph](https://basicsofthebible.github.io/resources/bstinteractive/graphs/bst_graph_pyvis.html)
+[Open the PyVis graph](https://basicsofthebible.github.io/resources/bstinteractive/graphs/bst_graph_pyvis.html) (*use ctrl-click to open in a new tab*)  
 
 [![PyVis network overview](./screenshots/pyvis_freenetwork.png)](https://basicsofthebible.github.io/resources/bstinteractive/graphs/bst_graph_pyvis.html)
 
@@ -67,7 +67,7 @@ Explore the interactive network and select nodes to inspect their connections.
 
 Explore force and hierarchical layouts. Internet access is required to load the visualization libraries.
 
-[Open the Cytoscape.js graph](https://basicsofthebible.github.io/resources/bstinteractive/graphs/bst_graph_cytoscape.html)
+[Open the Cytoscape.js graph](https://basicsofthebible.github.io/resources/bstinteractive/graphs/bst_graph_cytoscape.html) (*use ctrl-click to open in a new tab*)  
 
 [![Cytoscape.js force layout](./screenshots/cytoscape_force.png)](https://basicsofthebible.github.io/resources/bstinteractive/graphs/bst_graph_cytoscape.html)
 
