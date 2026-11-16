@@ -51,6 +51,28 @@ The workbook includes complete book metadata, historical dates, sequence classif
 
 ---
 
+## Interactive Graph Visualizations
+
+Explore connections between Bible books, people, events, and categories. Arrows show stored dependencies; these layouts are not proportional timelines.
+
+### PyVis
+
+Explore the interactive network and select nodes to inspect their connections.
+
+[Open the PyVis graph](https://basicsofthebible.github.io/resources/bstinteractive/graphs/bst_graph_pyvis.html)
+
+[![PyVis network overview](./screenshots/pyvis_freenetwork.png)](https://basicsofthebible.github.io/resources/bstinteractive/graphs/bst_graph_pyvis.html)
+
+### Cytoscape.js
+
+Explore force and hierarchical layouts. Internet access is required to load the visualization libraries.
+
+[Open the Cytoscape.js graph](https://basicsofthebible.github.io/resources/bstinteractive/graphs/bst_graph_cytoscape.html)
+
+[![Cytoscape.js force layout](./screenshots/cytoscape_force.png)](https://basicsofthebible.github.io/resources/bstinteractive/graphs/bst_graph_cytoscape.html)
+
+---
+
 ## Running Locally
 
 BST Interactive is built with vanilla HTML, CSS, and modern JavaScript, requiring no build tools, bundlers, or package managers.
