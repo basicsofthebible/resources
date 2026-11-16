@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,12 @@
     <!-- Optional premium Google Font to elevate typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <script>
-        (function() {
+        (function () {
             try {
                 var stored = localStorage.getItem('bst_theme');
                 var theme = stored;
@@ -28,34 +32,44 @@
         })();
     </script>
 </head>
+
 <body>
     <header class="sticky-header">
         <div class="header-content">
             <div class="language-selector-wrapper">
                 <label for="language-select" class="visually-hidden">Select language</label>
-                <select id="language-select" class="compact-select-overlay" aria-label="Select language" title="Select language" disabled>
+                <select id="language-select" class="compact-select-overlay" aria-label="Select language"
+                    title="Select language" disabled>
                     <option value="">Loading...</option>
                 </select>
                 <div class="language-select-control" aria-hidden="true">
-                    <svg class="globe-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                    <svg class="globe-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+                        focusable="false">
                         <circle cx="12" cy="12" r="10"></circle>
                         <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
                         <path d="M2 12h20"></path>
                     </svg>
                     <span id="selected-lang-display" class="selected-lang-code">EN</span>
-                    <svg class="dropdown-chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                    <svg class="dropdown-chevron" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                        stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
+                        aria-hidden="true" focusable="false">
                         <path d="m1 1 4 4 4-4"></path>
                     </svg>
                 </div>
             </div>
             <button id="theme-toggle" type="button" class="header-toggle-btn" aria-label="Switch to dark mode">
-                <svg class="theme-toggle-icon icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <svg class="theme-toggle-icon icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true" focusable="false">
                     <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
                 </svg>
                 <span class="visually-hidden">Switch to dark mode</span>
             </button>
-            <button id="color-key-toggle" type="button" class="header-toggle-btn active" aria-expanded="true" aria-controls="color-key-legend" aria-label="Color key" title="Color key">
-                <svg class="color-key-icon" width="24" height="7" viewBox="0 0 24 7" aria-hidden="true" focusable="false">
+            <button id="color-key-toggle" type="button" class="header-toggle-btn active" aria-expanded="true"
+                aria-controls="color-key-legend" aria-label="Color key" title="Color key">
+                <svg class="color-key-icon" width="24" height="7" viewBox="0 0 24 7" aria-hidden="true"
+                    focusable="false">
                     <rect x="0" y="0" width="7" height="7" rx="1.5" fill="#990000" />
                     <rect x="8.5" y="0" width="7" height="7" rx="1.5" fill="#446644" />
                     <rect x="17" y="0" width="7" height="7" rx="1.5" fill="#003399" />
@@ -71,7 +85,8 @@
     <aside id="color-key-legend" class="floating-legend" aria-labelledby="color-key-heading">
         <div class="legend-header">
             <h3 id="color-key-heading">
-                <svg class="color-key-icon" width="24" height="7" viewBox="0 0 24 7" aria-hidden="true" focusable="false">
+                <svg class="color-key-icon" width="24" height="7" viewBox="0 0 24 7" aria-hidden="true"
+                    focusable="false">
                     <rect x="0" y="0" width="7" height="7" rx="1.5" fill="#990000" />
                     <rect x="8.5" y="0" width="7" height="7" rx="1.5" fill="#446644" />
                     <rect x="17" y="0" width="7" height="7" rx="1.5" fill="#003399" />
@@ -110,14 +125,18 @@
         <section class="layout-prototype-panel" aria-labelledby="timeline-main-heading">
             <div class="layout-prototype-header">
                 <h2 id="timeline-main-heading">Bible Structure and Timeline</h2>
-                <p class="layout-desc">A visual guide that illustrates the structure of the Bible, arranged chronologically.</p>
+                <p class="layout-desc">A visual guide that illustrates the structure of the Bible, arranged
+                    chronologically.</p>
                 <div class="header-original-graphic-container">
-                    <a href="https://basicsofthebible.org/bst/" target="_blank" rel="noopener noreferrer" class="header-original-graphic-link" id="header-original-graphic-link" aria-label="An interactive version of the original BST graphic (opens in a new tab)">
-                        <span class="header-original-graphic-link-text">An interactive version of the original BST graphic</span>
+                    <a href="https://basicsofthebible.org/bst/" target="_blank" rel="noopener noreferrer"
+                        class="header-original-graphic-link" id="header-original-graphic-link"
+                        aria-label="An interactive version of the original BST graphic (opens in a new tab)">
+                        <span class="header-original-graphic-link-text">An interactive version of the original BST
+                            graphic</span>
                     </a>
                 </div>
             </div>
-            
+
             <div id="bible-layout-spine" class="spine-container">
                 <p class="placeholder-text" id="timeline-loading-message" role="status">Loading timeline...</p>
             </div>
@@ -125,12 +144,18 @@
     </main>
 
     <footer class="app-footer">
-        <p>Shawn Handran <svg class="footer-cc-icon" viewBox="-1 -1 26 26" width="14" height="14" aria-hidden="true" focusable="false"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zm0 2.182c5.423 0 9.818 4.395 9.818 9.818 0 5.423-4.395 9.818-9.818 9.818-5.423 0-9.818-4.395-9.818-9.818 0-5.423 4.395-9.818 9.818-9.818zm-2.91 5.09c-2.455 0-4.363 1.908-4.363 4.728 0 2.82 1.908 4.727 4.363 4.727 1.83 0 3.23-1.037 3.82-2.51l-1.855-.872c-.327.927-1.09 1.472-1.965 1.472-1.363 0-2.345-1.145-2.345-2.817 0-1.673.982-2.818 2.345-2.818.873 0 1.637.545 1.964 1.472l1.854-.872c-.59-1.473-1.99-2.51-3.818-2.51zm6.545 0c-2.455 0-4.364 1.908-4.364 4.728 0 2.82 1.909 4.727 4.364 4.727 1.83 0 3.23-1.037 3.818-2.51l-1.854-.872c-.328.927-1.09 1.472-1.964 1.472-1.364 0-2.346-1.145-2.346-2.817 0-1.673.982-2.818 2.346-2.818.873 0 1.636.545 1.963 1.472l1.855-.872c-.59-1.473-1.99-2.51-3.818-2.51z"/></svg> <span id="footer-year"></span> &bull; <a href="https://basicsofthebible.org/" class="footer-link">basicsofthebible.org</a></p>
+        <p>Shawn Handran <svg class="footer-cc-icon" viewBox="-1 -1 26 26" width="14" height="14" aria-hidden="true"
+                focusable="false">
+                <path
+                    d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zm0 2.182c5.423 0 9.818 4.395 9.818 9.818 0 5.423-4.395 9.818-9.818 9.818-5.423 0-9.818-4.395-9.818-9.818 0-5.423 4.395-9.818 9.818-9.818zm-2.91 5.09c-2.455 0-4.363 1.908-4.363 4.728 0 2.82 1.908 4.727 4.363 4.727 1.83 0 3.23-1.037 3.82-2.51l-1.855-.872c-.327.927-1.09 1.472-1.965 1.472-1.363 0-2.345-1.145-2.345-2.817 0-1.673.982-2.818 2.345-2.818.873 0 1.637.545 1.964 1.472l1.854-.872c-.59-1.473-1.99-2.51-3.818-2.51zm6.545 0c-2.455 0-4.364 1.908-4.364 4.728 0 2.82 1.909 4.727 4.364 4.727 1.83 0 3.23-1.037 3.818-2.51l-1.854-.872c-.328.927-1.09 1.472-1.964 1.472-1.364 0-2.346-1.145-2.346-2.817 0-1.673.982-2.818 2.346-2.818.873 0 1.636.545 1.963 1.472l1.855-.872c-.59-1.473-1.99-2.51-3.818-2.51z" />
+            </svg> <span id="footer-year"></span> &bull; <a href="https://basicsofthebible.org/"
+                class="footer-link">basicsofthebible.org</a></p>
     </footer>
- 
+
     <script src="script.js"></script>
     <script>
         document.getElementById('footer-year').textContent = new Date().getFullYear();
     </script>
 </body>
+
 </html>
