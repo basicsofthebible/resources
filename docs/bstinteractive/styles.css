@@ -425,6 +425,17 @@ body {
     flex: 1 1 auto;
 }
 
+.book-annotation {
+    display: block;
+    margin-block-start: 0.2rem;
+    font-size: 0.7rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: var(--text-secondary);
+    overflow-wrap: anywhere;
+    text-align: start;
+}
+
 .book-title-row {
     display: flex;
     align-items: baseline;
