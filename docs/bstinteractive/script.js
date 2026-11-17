@@ -76,6 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
         t,
         setUiTranslations: (v) => { uiTranslations = v; },
         getUiTranslations: () => uiTranslations,
+        renderBookAnnotations,
         UI_FALLBACK_STRINGS
     };
 
@@ -1803,6 +1804,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                             <span class="attached-book-abbr">${sAbbr}</span>
                                         </div>
                                         <span class="attached-book-subtitle">${sFull}</span>
+                                        ${renderBookAnnotations(s)}
                                     </div>
                                     ${sBadgeHtml}
                                 </div>
@@ -1862,6 +1864,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span class="node-title book-abbr">${pAbbr}</span>
                         </div>
                         <span class="book-subtitle">${pFull}</span>
+                        ${renderBookAnnotations(primaryNode)}
                     </div>
                 `;
             } else {
@@ -1963,6 +1966,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                                 <span class="attached-book-abbr">${sAbbr}</span>
                                             </div>
                                             <span class="attached-book-subtitle">${sFull}</span>
+                                            ${renderBookAnnotations(s)}
                                         </div>
                                         ${sBadgeHtml}
                                     </div>
@@ -2219,9 +2223,26 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /**
-     * Resolves the translated About description string for a book node.
-     * Uses currently selected language when available, falling back to English.
+     * Renders enabled, ordered book annotations with current-language/English fallback.
      */
+    function renderBookAnnotations(node, data = bstData, language = currentLang) {
+        if (!node || node.node_type !== 'book' || !node.reference_id) return '';
+        const mappings = data?.metadata?.book_annotations || [];
+        const localized = data?.translations?.[language]?.strings || {};
+        const english = data?.translations?.en?.strings || {};
+        return mappings
+            .filter(note => note.display === true && note.book_id === node.reference_id)
+            .sort((a, b) => a.display_order - b.display_order)
+            .map(note => {
+                // Match About text fallback: current language, then English; omit missing text.
+                const text = [localized[note.string_id], english[note.string_id]]
+                    .find(value => value !== undefined && value !== null && String(value).trim() !== '');
+                if (text === undefined) return '';
+                return `<span class="book-annotation" data-string-id="${escapeAttr(note.string_id)}">${escapeAttr(text)}</span>`;
+            }).join('');
+    }
+
+    /** Resolves the translated About description with English fallback. */
     function getAboutText(node) {
         if (!node || node.node_type !== 'book' || !node.reference_id) {
             return '';
