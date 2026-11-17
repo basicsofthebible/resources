@@ -728,6 +728,386 @@
         "osis_id": "Rev"
       }
     },
+    "book_annotations": [
+      {
+        "book_id": "genesis",
+        "string_id": "books_1_5_the_law",
+        "note_type": "explanatory_note",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "exodus",
+        "string_id": "books_1_5_the_law",
+        "note_type": "explanatory_note",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "leviticus",
+        "string_id": "books_1_5_the_law",
+        "note_type": "explanatory_note",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "numbers",
+        "string_id": "books_1_5_the_law",
+        "note_type": "explanatory_note",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "deuteronomy",
+        "string_id": "books_1_5_the_law",
+        "note_type": "explanatory_note",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "job",
+        "string_id": "time_period_of_job",
+        "note_type": "explanatory_note",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "psalms",
+        "string_id": "mostly_written_by_king_david",
+        "note_type": "author_attribution",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "proverbs",
+        "string_id": "written_by_king_solomon",
+        "note_type": "author_attribution",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "ecclesiastes",
+        "string_id": "written_by_king_solomon",
+        "note_type": "author_attribution",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "song_of_songs",
+        "string_id": "written_by_king_solomon",
+        "note_type": "author_attribution",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "isaiah",
+        "string_id": "isaiah_joel_micah_southern_kingdom",
+        "note_type": "explanatory_note",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "jeremiah",
+        "string_id": "jeremiah_before_during_exile",
+        "note_type": "explanatory_note",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "lamentations",
+        "string_id": "lamentations_during_exile",
+        "note_type": "explanatory_note",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "ezekiel",
+        "string_id": "ezekiel_and_daniel_in_exile",
+        "note_type": "explanatory_note",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "daniel",
+        "string_id": "ezekiel_and_daniel_in_exile",
+        "note_type": "explanatory_note",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "hosea",
+        "string_id": "hosea_and_amos_northern_kingdom",
+        "note_type": "explanatory_note",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "joel",
+        "string_id": "isaiah_joel_micah_southern_kingdom",
+        "note_type": "explanatory_note",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "amos",
+        "string_id": "hosea_and_amos_northern_kingdom",
+        "note_type": "explanatory_note",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "obadiah",
+        "string_id": "obadiah_edom",
+        "note_type": "explanatory_note",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "jonah",
+        "string_id": "jonah_and_nahum_assyria",
+        "note_type": "explanatory_note",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "micah",
+        "string_id": "isaiah_joel_micah_southern_kingdom",
+        "note_type": "explanatory_note",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "nahum",
+        "string_id": "jonah_and_nahum_assyria",
+        "note_type": "explanatory_note",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "habakkuk",
+        "string_id": "isaiah_joel_micah_southern_kingdom",
+        "note_type": "explanatory_note",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "zephaniah",
+        "string_id": "isaiah_joel_micah_southern_kingdom",
+        "note_type": "explanatory_note",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "haggai",
+        "string_id": "haggai_zechariah_malachi_after_exile",
+        "note_type": "explanatory_note",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "zechariah",
+        "string_id": "haggai_zechariah_malachi_after_exile",
+        "note_type": "explanatory_note",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "malachi",
+        "string_id": "haggai_zechariah_malachi_after_exile",
+        "note_type": "explanatory_note",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "matthew",
+        "string_id": "matthew_the_apostle",
+        "note_type": "author_attribution",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "mark",
+        "string_id": "john_mark",
+        "note_type": "author_attribution",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "luke",
+        "string_id": "luke_the_physician",
+        "note_type": "author_attribution",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "john",
+        "string_id": "john_the_apostle",
+        "note_type": "author_attribution",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "acts",
+        "string_id": "luke_the_physician",
+        "note_type": "author_attribution",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "romans",
+        "string_id": "paul_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "1_corinthians",
+        "string_id": "paul_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "2_corinthians",
+        "string_id": "paul_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "galatians",
+        "string_id": "paul_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "ephesians",
+        "string_id": "paul_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "philippians",
+        "string_id": "paul_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "colossians",
+        "string_id": "paul_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "1_thessalonians",
+        "string_id": "paul_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "2_thessalonians",
+        "string_id": "paul_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "1_timothy",
+        "string_id": "paul_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "2_timothy",
+        "string_id": "paul_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "titus",
+        "string_id": "paul_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "philemon",
+        "string_id": "paul_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "hebrews",
+        "string_id": "unknown_perhaps_paul",
+        "note_type": "author_attribution",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "james",
+        "string_id": "half_brother_of_jesus",
+        "note_type": "author_attribution",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "1_peter",
+        "string_id": "peter_the_apostle",
+        "note_type": "author_attribution",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "2_peter",
+        "string_id": "peter_the_apostle",
+        "note_type": "author_attribution",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "1_john",
+        "string_id": "john_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "2_john",
+        "string_id": "john_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "3_john",
+        "string_id": "john_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      },
+      {
+        "book_id": "jude",
+        "string_id": "half_brother_of_jesus",
+        "note_type": "author_attribution",
+        "display": true,
+        "display_order": 1
+      },
+      {
+        "book_id": "revelation",
+        "string_id": "john_the_apostle",
+        "note_type": "author_attribution",
+        "display": false,
+        "display_order": 1
+      }
+    ],
     "timeline_nodes": {
       "node_genesis": {
         "timeline_id": "ot_primary",
