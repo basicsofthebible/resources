@@ -82,6 +82,10 @@ tbe/
 └── svg_output_files_collapsed_tspans/
 ```
 
+## Optional Chinese character conversion
+
+The [SVG Chinese converter](../chinese_converter/README.md) converts existing Chinese SVG text between Simplified and Traditional Chinese locally. The four TBE graphics were used in its development and testing after manual Illustrator font substitutions and minor text-position corrections. Those preparation steps are separate from automated conversion. The exact adjusted examples and their QC reports are not included in the initial converter publication, pending embedded-font licensing review.
+
 ## Licensing note
 
 The code in this workflow is part of the repository-wide MIT-licensed codebase unless otherwise noted.

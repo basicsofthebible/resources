@@ -2,7 +2,7 @@
 
 This folder contains notebook-based workflows for translating text in structured SVG graphics while preserving visual layout and SVG structure.
 
-Rather than relying on a single rigid pipeline, each subfolder is a self-contained example workflow tailored to the structural quirks and domain requirements of a specific graphic or set of graphics. All examples share the same core pattern—extracting SVG text elements into structured JSON translation units, translating them in packets with an LLM, and writing translated text back into SVG files—while adapting filtering, `<tspan>` recombination, and post-processing rules as needed.
+Rather than relying on a single rigid pipeline, each subfolder is a self-contained example workflow tailored to the structural quirks and domain requirements of a specific graphic or set of graphics. The LLM translation examples share the same core pattern—extracting SVG text elements into structured JSON translation units, translating them in packets with an LLM, and writing translated text back into SVG files—while adapting filtering, `<tspan>` recombination, and post-processing rules as needed.
 
 ## General workflow pattern
 
@@ -25,6 +25,9 @@ Across these examples, the typical workflow includes:
 
 - **[`rev/`](rev/README.md) — *Revelation Graphics* (*Seven Churches of Revelation* & *Structure of Revelation*)**  
   Builds on the earlier examples with graphic-specific filtering and post-processing, including Greek-text and symbol preservation, repeated-term notes, collapsed-tspan output, and a third notebook step for deterministic normalization of Bible reference abbreviations.
+
+- **[`chinese_converter/`](chinese_converter/README.md) — SVG Chinese converter**  
+  Local Simplified/Traditional Chinese character conversion with XML validation and QC reports. This optional downstream workflow uses OpenCC rather than an LLM; it does not translate English or correct fonts.
 
 ## Licensing note
 

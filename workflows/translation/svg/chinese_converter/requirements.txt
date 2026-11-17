@@ -1,0 +1,7 @@
+# Recorded development baseline: Python 3.11.10.
+# Versions recorded in the development README; fresh installation not verified.
+OpenCC==1.4.2
+lxml==5.3.0
+# Notebook kernel; includes IPython used for the results display.
+# Install/select a Jupyter-capable frontend separately (see README).
+ipykernel==6.29.5
